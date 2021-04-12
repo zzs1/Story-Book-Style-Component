@@ -10,7 +10,7 @@ export default function Suggest() {
   return (
     <div className={styles.container}>
       <FolderUI />
-      <p>*result does not represent a real medical diagnosis.</p>
+      <p></p>
     </div>
 
   )
