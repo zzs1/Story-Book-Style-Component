@@ -1,0 +1,54 @@
+body, html{
+  margin:0;
+  text-align:center;
+}
+p{
+  margin:0;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  height:100px;
+  background-color: #F1EFEF;
+  margin:0;
+}
+
+.title > h1{
+  margin:25px;
+  font-size:40px;
+  color:#82DED9;
+  
+ 
+}
+.subtitle {
+  font-size:22px;
+  color:#52A1C3;
+}
+
+.typobox{
+  display:flex;
+
+}
+#saria {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  flex-grow: 1;
+  
+}
+#roboto {
+  font-family: 'Roboto', sans-serif;
+  flex-grow: 1;
+}
+#iconbox {
+  background-color: #82DED9;
+}
+
+#imgcontainer {
+  display:flex;
+  justify-content: center;
+}
+.imgcontainer > img {
+  margin:20px;
+}
+#graphicbox {
+  background-color:#52A1C3;
+}
