@@ -1,5 +1,17 @@
 import styles from '../../styles/Home.module.css'
-
-function PictureUI () {
-    
+const position = () => ({
+    left: 101,
+    top: 163,
+  })
+  
+function PictureUI() {
+return(
+    <div className={position()}>
+        <img src="../Picture/illustration.png" style={styles.picture}/>
+    </div>
+)
 }
+
+
+
+export default PictureUI;
