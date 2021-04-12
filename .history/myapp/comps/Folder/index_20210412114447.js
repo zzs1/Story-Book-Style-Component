@@ -1,6 +1,5 @@
 import styles from '../../styles/Home.module.css'
 
-
 const container = () => ({
  width:375,
  height:200,
@@ -65,11 +64,8 @@ const slider = () => ({
   display:"flex",
   flexGrow:1,
   
-  
-  
 
 })
-
 const textBox = () => ({
   display:"flex",
   flexDirection:"row",
@@ -110,10 +106,7 @@ function FolderUI() {
         <div style={sliderBox()}>
           <input 
           type="range"
-          style={slider()}
-          minValue={0}
-          maxValue={100}
-         ></input>
+          style={slider()}></input>
         </div>
         <div style={textBox()}>
           <p style={text()}>Mild(11-25)</p>

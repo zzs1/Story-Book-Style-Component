@@ -1,5 +1,7 @@
 import styles from '../../styles/Home.module.css'
-
+import React from 'react';
+import ReactDOM from 'react-dom';
+import InputRange from 'react-input-range';
 
 const container = () => ({
  width:375,
@@ -111,9 +113,9 @@ function FolderUI() {
           <input 
           type="range"
           style={slider()}
+          value={this.state.value}
           minValue={0}
-          maxValue={100}
-         ></input>
+          ></input>
         </div>
         <div style={textBox()}>
           <p style={text()}>Mild(11-25)</p>

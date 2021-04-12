@@ -111,6 +111,7 @@ function FolderUI() {
           <input 
           type="range"
           style={slider()}
+          value={}
           minValue={0}
           maxValue={100}
          ></input>

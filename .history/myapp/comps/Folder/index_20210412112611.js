@@ -1,13 +1,11 @@
 import styles from '../../styles/Home.module.css'
 
-
 const container = () => ({
  width:375,
  height:200,
  display:"flex",
  flexDirection:"column",
- 
-
+ backgroundColor:"#DDDCDC",
  
 })
 
@@ -26,13 +24,10 @@ const tabs = () => ({
   height:30,
   fontSize:12,
   color:"#52A1C3",
-  backgroundColor:"#F3F3F3",
   flexGrow:1,
   textAlign:"center",
   justifyContent:"center",
   alignItems:"center",
-  border:"1px solid #DDDCDC",
-  borderRadius:10,
   
   
   
@@ -49,41 +44,26 @@ const resultBox = () => ({
   display:"flex",
   flexDirection:"column",
   flexGrow:5,
-  backgroundColor:"#F3F3F3",
-  marginTop:-10,
-  border:"1px solid #DDDCDC",
+  
 
 })
 
 const sliderBox = () => ({
-  display:"flex",
-  flexGrow:1,
+  margin:0,
   
 
 })
-const slider = () => ({
-  display:"flex",
-  flexGrow:1,
-  
-  
-  
-
-})
-
 const textBox = () => ({
   display:"flex",
   flexDirection:"row",
-  justifyContent:"space-between",
   flexGrow:1,
+  
 
 })
 const text = () => ({
   display:"flex",
   flexDirection:"row",
   margin:10,
-  color:"#52A1C3",
-  fontFamily: "Saira Semi Condensed', sans-serif",
-  
   
 
 })
@@ -108,12 +88,7 @@ function FolderUI() {
 
       <div style={resultBox()}>
         <div style={sliderBox()}>
-          <input 
-          type="range"
-          style={slider()}
-          minValue={0}
-          maxValue={100}
-         ></input>
+          <input></input>
         </div>
         <div style={textBox()}>
           <p style={text()}>Mild(11-25)</p>

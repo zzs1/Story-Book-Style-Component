@@ -1,12 +1,10 @@
 import styles from '../../styles/Home.module.css'
 
-
 const container = () => ({
  width:375,
  height:200,
  display:"flex",
  flexDirection:"column",
- 
 
  
 })
@@ -61,15 +59,6 @@ const sliderBox = () => ({
   
 
 })
-const slider = () => ({
-  display:"flex",
-  flexGrow:1,
-  
-  
-  
-
-})
-
 const textBox = () => ({
   display:"flex",
   flexDirection:"row",
@@ -81,8 +70,6 @@ const text = () => ({
   display:"flex",
   flexDirection:"row",
   margin:10,
-  color:"#52A1C3",
-  fontFamily: "Saira Semi Condensed', sans-serif",
   
   
 
@@ -108,12 +95,7 @@ function FolderUI() {
 
       <div style={resultBox()}>
         <div style={sliderBox()}>
-          <input 
-          type="range"
-          style={slider()}
-          minValue={0}
-          maxValue={100}
-         ></input>
+          <input type={range} min={1} max={100} value={50} className={slider} id="myRange"> </input>
         </div>
         <div style={textBox()}>
           <p style={text()}>Mild(11-25)</p>

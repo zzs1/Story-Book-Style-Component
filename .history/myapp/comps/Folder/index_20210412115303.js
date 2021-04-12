@@ -111,9 +111,9 @@ function FolderUI() {
           <input 
           type="range"
           style={slider()}
+          value={this.state.value}
           minValue={0}
-          maxValue={100}
-         ></input>
+          maxValue={100}></input>
         </div>
         <div style={textBox()}>
           <p style={text()}>Mild(11-25)</p>
