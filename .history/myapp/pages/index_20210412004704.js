@@ -24,7 +24,7 @@ export default function Home() {
       <Button />
       </div>
       <div className={styles.number_container}>
-      <NumberUI />
+      <Number />
       </div>
     </div>
   )

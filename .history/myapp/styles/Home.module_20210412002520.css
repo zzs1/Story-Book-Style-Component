@@ -23,13 +23,5 @@
 }
 
 .dots_container{
-  display: flex;
-  justify-content: center;
-  width:375px;
-
-}
-.number_container{
-  display: flex;
-  justify-content: center;
-  width:375px;
+  
 }

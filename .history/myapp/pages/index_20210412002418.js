@@ -5,7 +5,6 @@ import BigButton from '../comps/BigButton'
 import AnswerUI from '../comps/Answer'
 import QuestionUI from '../comps/Question'
 import DotsUI from '../comps/Dots'
-import NumberUI from '../comps/Number'
 
 
 
@@ -16,15 +15,11 @@ export default function Home() {
       <br></br>
       <AnswerUI />
       <br></br>
-      <div className={styles.dots_container}>
+      <div
       <DotsUI />
-      </div>
       <div className={styles.buttonBox}>
       <Button />
       <Button />
-      </div>
-      <div className={styles.number_container}>
-      <NumberUI />
       </div>
     </div>
   )

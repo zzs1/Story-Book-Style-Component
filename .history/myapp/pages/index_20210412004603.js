@@ -5,7 +5,6 @@ import BigButton from '../comps/BigButton'
 import AnswerUI from '../comps/Answer'
 import QuestionUI from '../comps/Question'
 import DotsUI from '../comps/Dots'
-import NumberUI from '../comps/Number'
 
 
 
@@ -24,7 +23,7 @@ export default function Home() {
       <Button />
       </div>
       <div className={styles.number_container}>
-      <NumberUI />
+      <Number />
       </div>
     </div>
   )
