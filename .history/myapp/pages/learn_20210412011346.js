@@ -1,11 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Button from '../comps/Button'
-import BigButton from '../comps/BigButton'
-import AnswerUI from '../comps/Answer'
-import QuestionUI from '../comps/Question'
-import DotsUI from '../comps/Dots'
-import NumberUI from '../comps/Number'
+import HeadingUI from '../comps/Heading'
 
 
 

@@ -49,11 +49,7 @@
 .contentBox
 {
   display: flex;
-  flex-direction: column;
+  fle
   justify-content: center;
   width:375px;
-}
-.imgbox{
-  width:375px;
-  margin-left:10px;
 }

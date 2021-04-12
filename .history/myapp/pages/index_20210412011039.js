@@ -6,7 +6,7 @@ import AnswerUI from '../comps/Answer'
 import QuestionUI from '../comps/Question'
 import DotsUI from '../comps/Dots'
 import NumberUI from '../comps/Number'
-
+import HeadingUI from '../comps/Heading'
 
 
 
@@ -28,6 +28,9 @@ export default function Home() {
       <NumberUI />
       </div>
     </div>
-
+    
+    <div>
+      <HeadingUI />
+    </div>
   )
 }

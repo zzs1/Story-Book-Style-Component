@@ -46,14 +46,3 @@
   justify-content: center;
   width:375px;
 }
-.contentBox
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width:375px;
-}
-.imgbox{
-  width:375px;
-  margin-left:10px;
-}

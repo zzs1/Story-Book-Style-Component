@@ -1,11 +1,8 @@
 .container{
   width:375px;
   display:flex;
-  flex-direction:column;
-  justify-content: center;
-
+  flex
 }
-
 .answerbox{
   width:375px;
   background-color:#FFFFFF;
@@ -40,20 +37,4 @@
   display: flex;
   justify-content: center;
   width:375px;
-}
-.heading{
-  display: flex;
-  justify-content: center;
-  width:375px;
-}
-.contentBox
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width:375px;
-}
-.imgbox{
-  width:375px;
-  margin-left:10px;
 }
