@@ -26,7 +26,7 @@ export default function Learn() {
     />
     <ContentUI
     heading="3:Bipolar disorder"
-    content="who suffer from bipolar disorder may experience manic episodes where their moods and behaviors are drastically different than normal."
+    content="Symptoms include depressed mood, diminished interest or pleasure, change in weight, appetite and sleep patterns, fatigue, and a feeling of worthlessness."
     />
     </div>
     <div className={styles.imgbox}>

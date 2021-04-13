@@ -26,7 +26,7 @@ export default function Learn() {
     />
     <ContentUI
     heading="3:Bipolar disorder"
-    content="who suffer from bipolar disorder may experience manic episodes where their moods and behaviors are drastically different than normal."
+    content="who suffer from bipolar disorder may experience manic episodes where their moods and behaviors are drastically different than normal. "
     />
     </div>
     <div className={styles.imgbox}>

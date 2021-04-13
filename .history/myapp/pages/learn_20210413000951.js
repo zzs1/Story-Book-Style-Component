@@ -21,13 +21,10 @@ export default function Learn() {
     content="Symptoms can include excessive worrying, feeling agitated, restlessness, fatigue, tense muscles, difficulty sleeping, and panic attacks."
     />
     <ContentUI
-    heading="2: Major depressive disorder"
-    content="Symptoms include depressed mood, diminished interest or pleasure, change in weight, appetite and sleep patterns, fatigue, and a feeling of worthlessness."
+    heading="1: Anxiety disorders"
+    content="Symptoms can include excessive worrying, feeling agitated, restlessness, fatigue, tense muscles, difficulty sleeping, and panic attacks."
     />
-    <ContentUI
-    heading="3:Bipolar disorder"
-    content="who suffer from bipolar disorder may experience manic episodes where their moods and behaviors are drastically different than normal."
-    />
+    <ContentUI />
     </div>
     <div className={styles.imgbox}>
       <ImgBoxUI />
