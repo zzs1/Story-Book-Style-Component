@@ -1,7 +1,5 @@
 import styles from '../../styles/Home.module.css'
 
-
-
 const titleStyle = () => ({
   margin:0,
   marginBottom:5,

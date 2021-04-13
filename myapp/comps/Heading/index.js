@@ -4,19 +4,19 @@ const headingStyle = () => ({
     color: "#52A1C3",
     fontfamily: 'Roboto, sans-serif',
     textAlign:"left",
-    padding:"15px"
+    padding:"10px",
 })
 
 const subHeadstyle = () => ({
     lineHeight: "0.5",
-
+    marginBottom:"20px",
 })
 
 function HeadingUI(){
     return (
         <div className={styles.title}
         style={headingStyle()}>
-          <h1>Heading</h1>
+          <h1 className={styles.title} style={subHeadstyle()}>Heading</h1>
           <h3 className={styles.title} style={subHeadstyle()}>Sub-heading</h3>
         </div>
       )
