@@ -1,16 +1,13 @@
-import HeadingUI from '../comps/Heading'
+import HelpBoxUI from '../comps/HelpBox'
 import TopBar from '../comps/TopBar'
 import styles from '../styles/Home.module.css'
-import Heading from '../comps/Heading'
-import BorderUI from '../comps/Border'
 import PsNoteUI from '../comps/PsNote'
 
 export default function Terms() {
     return (
       <div className={styles.container}>
           <TopBar />
-        <HeadingUI />
-        <BorderUI/>
+        <HelpBoxUI />
         <PsNoteUI />
       </div>
     )
