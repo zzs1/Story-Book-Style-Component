@@ -5,14 +5,14 @@ import styles from '../../styles/Home.module.css'
 function TopBar() {
     return (
       < div className={styles.topBar}>
-        <img src="https:placekitten.com/100/100" 
+        <img src="../../image/backicon.png" 
         style={{
           width:50,
           height:50,
           textAlign:"left",
           
         }}/>
-        <img src="https:placekitten.com/50/50" 
+        <img src="../../image/logo_bg.png" 
         style={{
           width:200,
           height:50,

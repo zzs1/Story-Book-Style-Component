@@ -3,6 +3,7 @@ import TopBar from '../comps/TopBar'
 import styles from '../styles/Home.module.css'
 import Heading from '../comps/Heading'
 import ContentUI from '../comps/Content'
+import PsNoteUI from '../comps/PsNote'
 
 export default function Intro() {
     return (
@@ -12,6 +13,7 @@ export default function Intro() {
         <ContentUI />
         <ContentUI />
         <ContentUI />
+        <PsNoteUI />
       </div>
     )
   }

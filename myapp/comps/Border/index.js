@@ -15,7 +15,7 @@ color: "#52A1C3",
 fontfamily: 'Roboto, sans-serif',
 textAlign:"left",
 textIndent: "20px",
-fontSize: "18px",
+fontSize: "16px",
 width: "370px",
 
 })
