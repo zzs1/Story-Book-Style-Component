@@ -1,17 +1,23 @@
+import styles from '../../styles/Home.module.css'
+
 const headingStyle = () => ({
     color: "#52A1C3",
-    backgroundColor:"#region ",
     fontfamily: 'Roboto, sans-serif',
-    textalign:"left",
-    padding:"5px"
+    textAlign:"left",
+    padding:"15px"
 })
 
+const subHeadstyle = () => ({
+    lineHeight: "0.5",
+
+})
 
 function HeadingUI(){
     return (
-        <div styles={headingStyle()}>
+        <div className={styles.title}
+        style={headingStyle()}>
           <h1>Heading</h1>
-          <h4>Sub-heading</h4>
+          <h3 className={styles.title} style={subHeadstyle()}>Sub-heading</h3>
         </div>
       )
 }  
