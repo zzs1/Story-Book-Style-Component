@@ -1,3 +1,5 @@
+import styles from '../../styles/Home.module.css'
+
 function TopBar() {
     return (
       < div className={styles.TopBar}>
