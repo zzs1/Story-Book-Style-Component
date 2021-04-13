@@ -10,7 +10,6 @@ const contentStyle = () => ({
 })
 
 const pStyle = () => ({
-   
     margin:"5px",
 })
 
