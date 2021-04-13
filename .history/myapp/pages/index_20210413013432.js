@@ -211,7 +211,7 @@ export default function Home() {
       />
       <Button 
       title="NEXT"
-      subtext="Question6"
+      subtext="Question"
       />
       </div>
       <div className={styles.number_container}>

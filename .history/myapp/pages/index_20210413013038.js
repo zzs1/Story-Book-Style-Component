@@ -165,11 +165,11 @@ export default function Home() {
       <div className={styles.buttonBox}>
       <Button 
       title="BACK"
-      subtext="Question3"
+      subtext="Question5"
       />
       <Button 
       title="NEXT"
-      subtext="Question5"
+      subtext="Question3"
       />
       </div>
       <div className={styles.number_container}>
@@ -179,11 +179,11 @@ export default function Home() {
       </div>
     </div>
 
-    {/*Question Card 5 (text changeable)*/}
+    {/*Question Card 4 (text changeable)*/}
     <div className={styles.container}>
       <QuestionUI 
-      heading="Question 5"
-      content="Do you find yourself behave risky/unsafe in a way that isn’t normal for you?"
+      heading="Question 4"
+      content="Have you felt any interest or pleasure in activities in the past 2 weeks?"
       />
       <br></br>
       <div className={styles.answerbox}>
@@ -207,59 +207,16 @@ export default function Home() {
       <div className={styles.buttonBox}>
       <Button 
       title="BACK"
-      subtext="Question4"
+      subtext="Question5"
       />
       <Button 
       title="NEXT"
-      subtext="Question6"
+      subtext="Question3"
       />
       </div>
       <div className={styles.number_container}>
       <NumberUI 
-      title="5/6"
-      />
-      </div>
-    </div>
-
-
-    {/*Question Card 6 (text changeable)*/}
-    <div className={styles.container}>
-      <QuestionUI 
-      heading="Last Question"
-      content="How ofther do u encounter with acing thoughts; jumping quickly from one idea to the next?"
-      />
-      <br></br>
-      <div className={styles.answerbox}>
-      <BigButton 
-      heading="very much so"
-      />
-      <BigButton
-       heading="Often"
-      />
-      <BigButton 
-      heading="Occasionally"
-      />
-      <BigButton 
-      heading="Not at all"
-      />
-      </div>
-      <br></br>
-      <div className={styles.dots_container}>
-      <DotsUI />
-      </div>
-      <div className={styles.buttonBox}>
-      <Button 
-      title="Review"
-      subtext="Questions"
-      />
-      <Button 
-      title="Submit"
-      subtext=""
-      />
-      </div>
-      <div className={styles.number_container}>
-      <NumberUI 
-      title="6/6"
+      title="4/6"
       />
       </div>
     </div>

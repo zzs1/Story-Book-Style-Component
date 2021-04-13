@@ -165,11 +165,11 @@ export default function Home() {
       <div className={styles.buttonBox}>
       <Button 
       title="BACK"
-      subtext="Question3"
+      subtext="Question5"
       />
       <Button 
       title="NEXT"
-      subtext="Question5"
+      subtext="Question3"
       />
       </div>
       <div className={styles.number_container}>
@@ -225,8 +225,8 @@ export default function Home() {
     {/*Question Card 6 (text changeable)*/}
     <div className={styles.container}>
       <QuestionUI 
-      heading="Last Question"
-      content="How ofther do u encounter with acing thoughts; jumping quickly from one idea to the next?"
+      heading="Question 6"
+      content="Do you find yourself behave risky/unsafe in a way that isn’t normal for you?"
       />
       <br></br>
       <div className={styles.answerbox}>
@@ -249,17 +249,17 @@ export default function Home() {
       </div>
       <div className={styles.buttonBox}>
       <Button 
-      title="Review"
-      subtext="Questions"
+      title="BACK"
+      subtext="Question4"
       />
       <Button 
-      title="Submit"
-      subtext=""
+      title="NEXT"
+      subtext="Question6"
       />
       </div>
       <div className={styles.number_container}>
       <NumberUI 
-      title="6/6"
+      title="5/6"
       />
       </div>
     </div>

@@ -141,7 +141,7 @@ export default function Home() {
     <div className={styles.container}>
       <QuestionUI 
       heading="Question 4"
-      content="Have you felt any interest or pleasure in activities in the past 2 weeks?"
+      content="How often have you experienced feelings of low, depression, or hopelessness?"
       />
       <br></br>
       <div className={styles.answerbox}>
@@ -165,101 +165,16 @@ export default function Home() {
       <div className={styles.buttonBox}>
       <Button 
       title="BACK"
-      subtext="Question3"
+      subtext="Question2"
       />
       <Button 
       title="NEXT"
-      subtext="Question5"
-      />
-      </div>
-      <div className={styles.number_container}>
-      <NumberUI 
-      title="4/6"
-      />
-      </div>
-    </div>
-
-    {/*Question Card 5 (text changeable)*/}
-    <div className={styles.container}>
-      <QuestionUI 
-      heading="Question 5"
-      content="Do you find yourself behave risky/unsafe in a way that isn’t normal for you?"
-      />
-      <br></br>
-      <div className={styles.answerbox}>
-      <BigButton 
-      heading="very much so"
-      />
-      <BigButton
-       heading="Often"
-      />
-      <BigButton 
-      heading="Occasionally"
-      />
-      <BigButton 
-      heading="Not at all"
-      />
-      </div>
-      <br></br>
-      <div className={styles.dots_container}>
-      <DotsUI />
-      </div>
-      <div className={styles.buttonBox}>
-      <Button 
-      title="BACK"
       subtext="Question4"
       />
-      <Button 
-      title="NEXT"
-      subtext="Question6"
-      />
       </div>
       <div className={styles.number_container}>
       <NumberUI 
-      title="5/6"
-      />
-      </div>
-    </div>
-
-
-    {/*Question Card 6 (text changeable)*/}
-    <div className={styles.container}>
-      <QuestionUI 
-      heading="Last Question"
-      content="How ofther do u encounter with acing thoughts; jumping quickly from one idea to the next?"
-      />
-      <br></br>
-      <div className={styles.answerbox}>
-      <BigButton 
-      heading="very much so"
-      />
-      <BigButton
-       heading="Often"
-      />
-      <BigButton 
-      heading="Occasionally"
-      />
-      <BigButton 
-      heading="Not at all"
-      />
-      </div>
-      <br></br>
-      <div className={styles.dots_container}>
-      <DotsUI />
-      </div>
-      <div className={styles.buttonBox}>
-      <Button 
-      title="Review"
-      subtext="Questions"
-      />
-      <Button 
-      title="Submit"
-      subtext=""
-      />
-      </div>
-      <div className={styles.number_container}>
-      <NumberUI 
-      title="6/6"
+      title="3/6"
       />
       </div>
     </div>

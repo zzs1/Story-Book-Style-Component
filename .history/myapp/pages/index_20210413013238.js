@@ -165,11 +165,11 @@ export default function Home() {
       <div className={styles.buttonBox}>
       <Button 
       title="BACK"
-      subtext="Question3"
+      subtext="Question5"
       />
       <Button 
       title="NEXT"
-      subtext="Question5"
+      subtext="Question3"
       />
       </div>
       <div className={styles.number_container}>
@@ -249,12 +249,12 @@ export default function Home() {
       </div>
       <div className={styles.buttonBox}>
       <Button 
-      title="Review"
-      subtext="Questions"
+      title="BACK"
+      subtext="Question5"
       />
       <Button 
-      title="Submit"
-      subtext=""
+      title="NEXT"
+      subtext="Question7"
       />
       </div>
       <div className={styles.number_container}>

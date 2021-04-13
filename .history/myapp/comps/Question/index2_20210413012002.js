@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const CardCont = styled.div`
   width:375px;
-  height:150px;
+  height:200px;
   background-color:#82DED9;
   display:flex;
   flex-direction:column;
