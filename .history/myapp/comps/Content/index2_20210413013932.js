@@ -3,12 +3,12 @@ import React from 'react'
 import styled from 'styled-components';
 
 const CardCont = styled.div`
+
   width:375px;
   height:150px;
   text-align:center;
   display:flex;
   flex-direction:column;
-  color:#52A1C3;
   `;
   
 
@@ -18,6 +18,7 @@ const UpperBox = styled.div`
   `;
   
 const Heading = styled.h3`
+  margin-top:0px;
   justify-content:center;
   margin-bottom:5px;
   margin-top:5px;
@@ -31,14 +32,14 @@ const LowerBox = styled.div`
   background-color:#FFFFFF;
   height:60px;
   flex-grow:1;
- 
 `;
 
 const Text = styled.p`
+  margin-top:0px;
   justify-content:center;
   margin-bottom:5px;
   margin-top:5px;
-  color:#52A1C3;
+ 
   font-family:Saira Semi Condensed', sans-serif;
   text-align:center;
 `;

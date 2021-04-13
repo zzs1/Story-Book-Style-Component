@@ -8,7 +8,6 @@ const CardCont = styled.div`
   text-align:center;
   display:flex;
   flex-direction:column;
-  color:#52A1C3;
   `;
   
 

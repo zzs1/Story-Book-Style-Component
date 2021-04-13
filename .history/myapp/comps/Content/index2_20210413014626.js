@@ -8,6 +8,7 @@ const CardCont = styled.div`
   text-align:center;
   display:flex;
   flex-direction:column;
+  font-family:Saira Semi Condensed', sans-serif;
   color:#52A1C3;
   `;
   
@@ -22,7 +23,7 @@ const Heading = styled.h3`
   margin-bottom:5px;
   margin-top:5px;
   color:#52A1C3;
-  font-family:Saira Semi Condensed', sans-serif;
+  
   text-align:center;
 
 `;

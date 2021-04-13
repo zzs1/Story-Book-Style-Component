@@ -8,6 +8,7 @@ const CardCont = styled.div`
   text-align:center;
   display:flex;
   flex-direction:column;
+  font-family:Saira Semi Condensed', sans-serif;
   color:#52A1C3;
   `;
   

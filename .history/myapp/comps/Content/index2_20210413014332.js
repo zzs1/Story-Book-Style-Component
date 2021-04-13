@@ -3,12 +3,12 @@ import React from 'react'
 import styled from 'styled-components';
 
 const CardCont = styled.div`
+
   width:375px;
   height:150px;
   text-align:center;
   display:flex;
   flex-direction:column;
-  color:#52A1C3;
   `;
   
 
