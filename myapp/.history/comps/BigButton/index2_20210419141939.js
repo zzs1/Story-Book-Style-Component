@@ -27,11 +27,10 @@ color:#FFFFFF;
 const BigButtonUI = ({
 bgcolor='#DADADA',
 heading="Very much so",
-onClick=()=>{}  
 
 }) => {
 
-  return <CardCont onClick={onClick} bgcolor={bgcolor}>
+  return <CardCont bgcolor={bgcolor}>
     <Heading>{heading}</Heading>
   </CardCont>
 }

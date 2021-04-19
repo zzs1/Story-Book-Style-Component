@@ -31,7 +31,7 @@ onClick=()=>{}
 
 }) => {
 
-  return <CardCont onClick={onClick} bgcolor={bgcolor}>
+  return <CardCont bgcolor={bgcolor}>
     <Heading>{heading}</Heading>
   </CardCont>
 }

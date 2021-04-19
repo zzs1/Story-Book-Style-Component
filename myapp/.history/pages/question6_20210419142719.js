@@ -13,7 +13,6 @@ import NumberUI from '../comps/Number/index2'
 
 
 export default function Home() {
-
   const [buttonstate1, setButtonState1] = useState(false);  
     
   const HandleClickButtonColor1 = () =>{
@@ -35,15 +34,16 @@ export default function Home() {
   const HandleClickButtonColor4= () =>{
         setButtonState4(!buttonstate4);
       }
+
   const router = useRouter();
   return (
   <div className={styles.main_container}>
 
-  {/*Question Card 1 (text changeable)*/}
-    <div className={styles.container}>
+   {/*Question Card 6 (text changeable)*/}
+   <div className={styles.container}>
       <QuestionUI 
-      heading="Question 1"
-      content="Have you had difficulty focusing or thinking clearly about anything other than what you’re worried about?"
+      heading="Last Question"
+      content="How ofther do u encounter with acing thoughts; jumping quickly from one idea to the next?"
       />
       <br></br>
       <div className={styles.answerbox}>
@@ -55,18 +55,15 @@ export default function Home() {
       <BigButton
        heading="Often"
        onClick={HandleClickButtonColor2} 
-       bgcolor={buttonstate2 ? '#52A1C3' : '#DADADA'}
- 
+      bgcolor={buttonstate2 ? '#52A1C3' : '#DADADA'}
       />
       <BigButton 
       heading="Occasionally"
-      onClick={HandleClickButtonColor3} 
-      bgcolor={buttonstate3 ? '#52A1C3' : '#DADADA'}
+      onClick={HandleClickButtonColor1} 
+      bgcolor={buttonstate1 ? '#52A1C3' : '#DADADA'}
       />
       <BigButton 
       heading="Not at all"
-      onClick={HandleClickButtonColor4} 
-      bgcolor={buttonstate4 ? '#52A1C3' : '#DADADA'}
       />
       </div>
       <br></br>
@@ -75,14 +72,19 @@ export default function Home() {
       </div>
       <div className={styles.buttonBox}>
       <Button 
-      title="NEXT"
-      subtext="Question2"
-      routeTo="/question2"
+      title="Review"
+      subtext="Question5"
+      routeTo="/question5"
+      />
+      <Button 
+      title="Submit"
+      subtext=""
+      routeTo="/suggest"
       />
       </div>
       <div className={styles.number_container}>
       <NumberUI 
-      title="1/6"
+      title="6/6"
       />
       </div>
     </div>

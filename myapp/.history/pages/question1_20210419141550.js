@@ -30,7 +30,7 @@ export default function Home() {
         setButtonState3(!buttonstate3);
       }
 
-  const [buttonstate4, setButtonState4] = useState(false);  
+  const [buttonstate4, setButtonState3] = useState(false);  
 
   const HandleClickButtonColor4= () =>{
         setButtonState4(!buttonstate4);
@@ -49,24 +49,17 @@ export default function Home() {
       <div className={styles.answerbox}>
       <BigButton 
       heading="very much so"
-      onClick={HandleClickButtonColor1} 
-      bgcolor={buttonstate1 ? '#52A1C3' : '#DADADA'}
       />
       <BigButton
        heading="Often"
-       onClick={HandleClickButtonColor2} 
-       bgcolor={buttonstate2 ? '#52A1C3' : '#DADADA'}
- 
+       onClick={HandleClickButtonColor1} 
+       bgcolor={buttonstate1 ? '#52A1C3' : '#DADADA'}
       />
       <BigButton 
       heading="Occasionally"
-      onClick={HandleClickButtonColor3} 
-      bgcolor={buttonstate3 ? '#52A1C3' : '#DADADA'}
       />
       <BigButton 
       heading="Not at all"
-      onClick={HandleClickButtonColor4} 
-      bgcolor={buttonstate4 ? '#52A1C3' : '#DADADA'}
       />
       </div>
       <br></br>

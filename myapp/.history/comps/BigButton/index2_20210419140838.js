@@ -3,7 +3,7 @@ import React from 'react'
 import styled from 'styled-components';
 
 const CardCont = styled.div`
-background:${props=>props.bgcolor};
+background-color:${props=>props.bgcolor};
 width:110px;
 height:70px;
 border-radius:10px;
@@ -25,13 +25,12 @@ color:#FFFFFF;
 
 
 const BigButtonUI = ({
-bgcolor='#DADADA',
+  bgcolor='#333
 heading="Very much so",
-onClick=()=>{}  
 
 }) => {
 
-  return <CardCont onClick={onClick} bgcolor={bgcolor}>
+  return <CardCont >
     <Heading>{heading}</Heading>
   </CardCont>
 }

@@ -60,13 +60,11 @@ export default function Home() {
       />
       <BigButton 
       heading="Occasionally"
-      onClick={HandleClickButtonColor3} 
-      bgcolor={buttonstate3 ? '#52A1C3' : '#DADADA'}
+      onClick={HandleClickButtonColor1} 
+      bgcolor={buttonstate1 ? '#52A1C3' : '#DADADA'}
       />
       <BigButton 
       heading="Not at all"
-      onClick={HandleClickButtonColor4} 
-      bgcolor={buttonstate4 ? '#52A1C3' : '#DADADA'}
       />
       </div>
       <br></br>

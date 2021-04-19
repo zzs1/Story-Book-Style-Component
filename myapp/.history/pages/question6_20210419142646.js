@@ -13,28 +13,6 @@ import NumberUI from '../comps/Number/index2'
 
 
 export default function Home() {
-  const [buttonstate1, setButtonState1] = useState(false);  
-    
-  const HandleClickButtonColor1 = () =>{
-      setButtonState1(!buttonstate1);
-    }
-  const [buttonstate2, setButtonState2] = useState(false);  
-  
-  const HandleClickButtonColor2= () =>{
-      setButtonState2(!buttonstate2);
-    }
-  const [buttonstate3, setButtonState3] = useState(false);  
-  
-  const HandleClickButtonColor3= () =>{
-        setButtonState3(!buttonstate3);
-      }
-
-  const [buttonstate4, setButtonState4] = useState(false);  
-
-  const HandleClickButtonColor4= () =>{
-        setButtonState4(!buttonstate4);
-      }
-
   const router = useRouter();
   return (
   <div className={styles.main_container}>
@@ -49,23 +27,15 @@ export default function Home() {
       <div className={styles.answerbox}>
       <BigButton 
       heading="very much so"
-      onClick={HandleClickButtonColor1} 
-      bgcolor={buttonstate1 ? '#52A1C3' : '#DADADA'}
       />
       <BigButton
        heading="Often"
-       onClick={HandleClickButtonColor2} 
-      bgcolor={buttonstate2 ? '#52A1C3' : '#DADADA'}
       />
       <BigButton 
       heading="Occasionally"
-      onClick={HandleClickButtonColor3} 
-      bgcolor={buttonstate3 ? '#52A1C3' : '#DADADA'}
       />
       <BigButton 
       heading="Not at all"
-      onClick={HandleClickButtonColor4} 
-      bgcolor={buttonstate4 ? '#52A1C3' : '#DADADA'}
       />
       </div>
       <br></br>

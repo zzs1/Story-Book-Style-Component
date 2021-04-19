@@ -13,7 +13,7 @@ import NumberUI from '../comps/Number/index2'
 
 
 export default function Home() {
-
+  
   const [buttonstate1, setButtonState1] = useState(false);  
     
   const HandleClickButtonColor1 = () =>{
@@ -35,38 +35,30 @@ export default function Home() {
   const HandleClickButtonColor4= () =>{
         setButtonState4(!buttonstate4);
       }
+
   const router = useRouter();
   return (
   <div className={styles.main_container}>
 
-  {/*Question Card 1 (text changeable)*/}
+       {/*Question Card 5 (text changeable)*/}
     <div className={styles.container}>
       <QuestionUI 
-      heading="Question 1"
-      content="Have you had difficulty focusing or thinking clearly about anything other than what you’re worried about?"
+      heading="Question 5"
+      content="Do you find yourself behave risky/unsafe in a way that isn’t normal for you?"
       />
       <br></br>
       <div className={styles.answerbox}>
       <BigButton 
       heading="very much so"
-      onClick={HandleClickButtonColor1} 
-      bgcolor={buttonstate1 ? '#52A1C3' : '#DADADA'}
       />
       <BigButton
        heading="Often"
-       onClick={HandleClickButtonColor2} 
-       bgcolor={buttonstate2 ? '#52A1C3' : '#DADADA'}
- 
       />
       <BigButton 
       heading="Occasionally"
-      onClick={HandleClickButtonColor3} 
-      bgcolor={buttonstate3 ? '#52A1C3' : '#DADADA'}
       />
       <BigButton 
       heading="Not at all"
-      onClick={HandleClickButtonColor4} 
-      bgcolor={buttonstate4 ? '#52A1C3' : '#DADADA'}
       />
       </div>
       <br></br>
@@ -75,18 +67,23 @@ export default function Home() {
       </div>
       <div className={styles.buttonBox}>
       <Button 
+      title="BACK"
+      subtext="Question4"
+      routeTo='/question4'
+      />
+      <Button 
       title="NEXT"
-      subtext="Question2"
-      routeTo="/question2"
+      subtext="Question6"
+      routeTo='/question6'
       />
       </div>
       <div className={styles.number_container}>
       <NumberUI 
-      title="1/6"
+      title="5/6"
       />
       </div>
     </div>
-    </div>
+      </div>
 
     
 

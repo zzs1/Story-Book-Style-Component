@@ -35,38 +35,30 @@ export default function Home() {
   const HandleClickButtonColor4= () =>{
         setButtonState4(!buttonstate4);
       }
+      
   const router = useRouter();
   return (
   <div className={styles.main_container}>
 
-  {/*Question Card 1 (text changeable)*/}
-    <div className={styles.container}>
+      {/*Question Card 3 (text changeable)*/}
+      <div className={styles.container}>
       <QuestionUI 
-      heading="Question 1"
-      content="Have you had difficulty focusing or thinking clearly about anything other than what you’re worried about?"
+      heading="Question 3"
+      content="How often have you experienced feelings of low, depression, or hopelessness?"
       />
       <br></br>
       <div className={styles.answerbox}>
       <BigButton 
       heading="very much so"
-      onClick={HandleClickButtonColor1} 
-      bgcolor={buttonstate1 ? '#52A1C3' : '#DADADA'}
       />
       <BigButton
        heading="Often"
-       onClick={HandleClickButtonColor2} 
-       bgcolor={buttonstate2 ? '#52A1C3' : '#DADADA'}
- 
       />
       <BigButton 
       heading="Occasionally"
-      onClick={HandleClickButtonColor3} 
-      bgcolor={buttonstate3 ? '#52A1C3' : '#DADADA'}
       />
       <BigButton 
       heading="Not at all"
-      onClick={HandleClickButtonColor4} 
-      bgcolor={buttonstate4 ? '#52A1C3' : '#DADADA'}
       />
       </div>
       <br></br>
@@ -75,18 +67,23 @@ export default function Home() {
       </div>
       <div className={styles.buttonBox}>
       <Button 
-      title="NEXT"
+      title="BACK"
       subtext="Question2"
       routeTo="/question2"
+      />
+      <Button 
+      title="NEXT"
+      subtext="Question4"
+      routeTo="/question4"
       />
       </div>
       <div className={styles.number_container}>
       <NumberUI 
-      title="1/6"
+      title="3/6"
       />
       </div>
     </div>
-    </div>
+      </div>
 
     
 
