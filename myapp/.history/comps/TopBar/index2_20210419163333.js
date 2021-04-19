@@ -10,14 +10,14 @@ function TopBar() {
           width:35,
           height:35,
           textAlign:"left",
-          marginLeft:5,
+          marginLeft
           
         }}/>
         <img src="/image/logo_bg.png"
         style={{
           width:200,
           height:50,
-          marginLeft:40,
+          marginLeft:"40px",
         }}/>
       </div>
     )

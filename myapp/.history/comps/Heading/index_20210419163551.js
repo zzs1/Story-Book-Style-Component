@@ -11,10 +11,10 @@ const container = () => ({
 })
 
 const text = () => ({
-  margin:0,
+  margin:10,
   justifyContent:"center",
-  marginBottom:10,
-  marginTop:10,
+  marginBottom:5,
+  marginTop:5,
   color:"#52A1C3",
   fontFamily: "Saira Semi Condensed', sans-serif",
   textAlign:"center",

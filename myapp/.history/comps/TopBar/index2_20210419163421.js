@@ -17,7 +17,7 @@ function TopBar() {
         style={{
           width:200,
           height:50,
-          marginLeft:40,
+          
         }}/>
       </div>
     )

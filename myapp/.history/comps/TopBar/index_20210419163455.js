@@ -5,7 +5,7 @@ import styles from '../../styles/Home.module.css'
 function TopBar() {
     return (
       < div className={styles.topBar}>
-        <img src="/image/home.png" 
+        <img src="/image/backicon.png" 
         style={{
           width:35,
           height:35,
@@ -17,7 +17,7 @@ function TopBar() {
         style={{
           width:200,
           height:50,
-          marginLeft:40,
+          marginLeft:"40,
         }}/>
       </div>
     )

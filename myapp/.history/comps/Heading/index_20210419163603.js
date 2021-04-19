@@ -14,7 +14,7 @@ const text = () => ({
   margin:0,
   justifyContent:"center",
   marginBottom:10,
-  marginTop:10,
+  marginTop:5,
   color:"#52A1C3",
   fontFamily: "Saira Semi Condensed', sans-serif",
   textAlign:"center",
