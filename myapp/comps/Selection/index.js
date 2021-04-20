@@ -12,7 +12,7 @@ const img = () => ({
 
 })
 const head = () => ({
-    fontFamily: 'Roboto, sans-serif',
+    fontFamily: "Saira Semi Condensed', sans-serif",
     fontWeight: '800',
     fontSize: '16px',
     lineHeight: '25px',
@@ -20,7 +20,7 @@ const head = () => ({
     color: '#52A1C3',
 })
 const para = () => ({
-    fontFamily: 'Roboto, sans-serif',
+    fontFamily: "Saira Semi Condensed', sans-serif",
     fontWeight: 'bold',
     fontSize: '14px',
     lineHeight: '25px',
@@ -30,7 +30,7 @@ const para = () => ({
 function SelectionUI() {
     return (
       <div style={container()}>
-        <img src="../../Steps/Step01.png" style={img()}/>
+        <img src="../../public/Step01.png" style={img()}/>
         <h3 style={head()}></h3>
         <p style={para()}></p>
       </div>

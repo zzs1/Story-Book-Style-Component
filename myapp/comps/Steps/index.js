@@ -14,7 +14,7 @@ const img = () => ({
 
 })
 const head = () => ({
-    fontFamily: 'Roboto, sans-serif',
+    fontFamily: "Saira Semi Condensed', sans-serif",
     fontWeight: 'bold',
     fontSize: '16px',
     lineHeight: '25px',
@@ -22,7 +22,7 @@ const head = () => ({
     color: '#52A1C3',
 })
 const para = () => ({
-    fontFamily: 'Roboto, sans-serif',
+    fontFamily: "Saira Semi Condensed', sans-serif",
     fontWeight: 'normal',
     fontSize: '16px',
     lineHeight: '25px',
@@ -32,7 +32,7 @@ const para = () => ({
 function StepsUI() {
     return (
       <div style={container()}>
-        <img src="../../Steps/Step01.png" style={img()}/>
+        <img src="../../public/Step01.png" style={img()}/>
         <h2 style={head()}></h2>
         <p style={para()}></p>
       </div>

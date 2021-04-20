@@ -1,12 +1,12 @@
 const title = () => ({
-    fontFamily: 'Roboto, sans-serif',
+    fontFamily: "Saira Semi Condensed', sans-serif",
     fontWeight: 'bold',
     fontSize: '30px',
     lineHeight: '47px',
     color: '#52A1C3',
 })
 const subheading = () => ({
-    fontFamily: 'Roboto, sans-serif',
+    fontFamily: "Saira Semi Condensed', sans-serif",
     fontWeight: 'bold',
     fontSize: '30px',
     lineHeight: '47px',
@@ -14,7 +14,7 @@ const subheading = () => ({
     textAlign: 'center',
 })
 const indent = () => ({
-    fontFamily: 'Roboto, sans-serif',
+    fontFamily: "Saira Semi Condensed', sans-serif",
     fontWeight: 'bold',
     fontSize: '18px',
     lineHeight: '28px',
@@ -30,7 +30,7 @@ function ResultUI() {
     return (
       <div>
         <h3 style={title()}>Result</h3>
-        <img src="../../Steps/Step01.png" style={picture()}/>
+        <img src="../../public/Step01.png" style={picture()}/>
         <h3 style={subheading()}>Base on the score you got from the test</h3>
         <p style={indent()}>You may experiencing severe mental illness</p>
       </div>

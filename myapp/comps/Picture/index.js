@@ -7,7 +7,7 @@ const position = () => ({
 function PictureUI() {
 return(
     <div className={position()}>
-        <img src="../Picture/illustration.png" style={styles.picture}/>
+        <img src="../public/illustration.png" style={styles.picture}/>
     </div>
 )
 }
