@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 import styles from '../styles/Home.module.css'
 import HeadingUI from '../comps/Heading'
 import ContentUI from '../comps/Content/index2.js'
-import ImgBoxUI from '../comps/ImgBox/index2'
+import ImgBoxUI from '../comps/ImgBox/index'
 import ButtonUI from '../comps/Button/index2';
 import TopBar from '../comps/TopBar';
 
