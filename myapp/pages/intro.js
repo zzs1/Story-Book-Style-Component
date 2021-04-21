@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 import Heading from '../comps/Heading'
 import ContentUI from '../comps/Content'
 import PsNoteUI from '../comps/PsNote'
+import  ButtonUI from '../comps/Button/index2.js'
+
 
 export default function Intro() {
     return (
@@ -14,6 +16,10 @@ export default function Intro() {
         <ContentUI />
         <ContentUI />
         <PsNoteUI />
+        <ButtonUI 
+        title="NEXT"
+        subtext=""
+        routeTo='/terms'/>
       </div>
     )
   }

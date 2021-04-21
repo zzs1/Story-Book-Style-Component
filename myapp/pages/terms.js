@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 import Heading from '../comps/Heading'
 import BorderUI from '../comps/Border'
 import PsNoteUI from '../comps/PsNote'
+import  ButtonUI from '../comps/Button/index2.js'
+
 
 export default function Terms() {
     return (
@@ -12,6 +14,10 @@ export default function Terms() {
         <HeadingUI />
         <BorderUI/>
         <PsNoteUI />
+        <ButtonUI 
+        title="Agree"
+        subtext=""
+        routeTo='/question1'/>
       </div>
     )
   }

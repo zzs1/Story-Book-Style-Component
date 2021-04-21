@@ -8,6 +8,8 @@ const Headline = () => ({
 })
 
 const Number = () => ({
+    display:"inline-flex",
+    flexDirection:"column",
     borderRadius: "50%",
     width: "50px",
     height: "50px", 
@@ -16,6 +18,10 @@ const Number = () => ({
     textAlign: "center"
 })
 
+const Title =() =>  ({
+    flexDirection:"column",
+    fontSize:"30px"
+})
 const pStyle = () => ({
     margin:"5px",
     textIndent: "20px",
@@ -26,9 +32,8 @@ function HelpBoxUI(){
     return (
         <div className={styles.title}
         style={Headline()}>
-            <h1 className={styles.title}
-        style={Number()} >1</h1>
-        <h2>Call a helpline</h2>
+     <h1 className={styles.title} style={Number()} >1</h1>
+        <h2 className={styles.title} style={Title()}> Call a helpline </h2>
           <p className={styles.title} style={pStyle()}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.  Fusce nec tellus sed augue semper porta. Mauris massa. 
             

@@ -1,27 +1,29 @@
-import styled  from  'styled-components'; 
+import styled  from  'styled-components'
 
 const HomeCont = styled.div`
 .body{
-    background-Color: #52A1C3;
+    background-color:#82DED9;
+    width:375px;
+    height:600px;
 }
-.circle{
-    background: lightblue;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-}
+// .circle{
+//     background: lightblue;
+//     border-radius: 50%;
+//     width: 100px;
+//     height: 100px;
+// }
 `;
 function HomeUI() {
-    return <HomeCont>
+    return <HomeCont >
        <div className="body">
         <img src="/image/logo_bg.png" 
         style={{
           width:250,
           height:90,
-          marginLeft:"45%",
+          marginLeft:"10%",
+          marginTop:"50%"
         }}/>
       </div>
-      <div className ="circle"></div>
       </HomeCont>
     
   }
