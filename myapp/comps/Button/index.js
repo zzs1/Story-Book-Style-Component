@@ -1,37 +1,39 @@
 import styles from '../../styles/Home.module.css'
+import React from 'react'
+import styled from 'styled-components'
+import {useRouter} from 'next/router' 
 
-const BoxStyle = () => ({
-  backgroundColor:"#82DED9",
-  width:100,
-  height:50,
-  borderRadius:10,
-  display:"flex",
-  flexDirection:"column",
-  textAlign:"center",
-  color:"#FFFFFF",
-  fontFamily: 'Roboto, sans-serif',
-  margin:10,
-  justifyContent:"center",
-})
-
-const titleStyle = () => ({
-  margin:0,
-  justifyContent:"center",
-  marginBottom:5,
-  marginTop:5,
+const CardCont = styled.div`
+background-color:#82DED9;
+width:100px;
+height:50px;
+border-radius:10px;
+display:flex;
+flex-direction:column;
+text-align:center;
+color:#FFFFFF;
+font-family:Roboto, sans-serif;
+margin:10px;
+justify-content:center;
+`;
   
+const Heading = styled.h5`
+margin:0px;
+justify-content:center;
+margin-bottom:5px;
+margin-top:5px;
+`;
 
-})
 
-function ButtonUI() {
-  return (
-    <div className={styles.main}
-    style={BoxStyle()}>
-      <h4 className={styles.title}
-      style={titleStyle()}>Title</h4>
-      <p className={styles.title}
-      style={titleStyle()}>Subtext</p>
-    </div>
-  )
+const ButtonUI = ({
+title,
+routeTo='/question1'
+}) => {
+  const router = useRouter();
+  return <CardCont onClick={()=>router.push(routeTo)}>
+    <Heading>{title}</Heading>
+  </CardCont>
 }
+
+
 export default ButtonUI;

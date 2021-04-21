@@ -1,16 +1,25 @@
 import styles from '../../styles/Home.module.css'
-const position = () => ({
-    left: 101,
-    top: 163,
-  })
-  
-function PictureUI() {
-return(
-    <div className={position()}>
-        <img src="../public/illustration.png" style={styles.picture}/>
-    </div>
-)
-}
+import styled from 'styled-components'
+
+
+const Image = styled.div`
+left:101px;
+top:163px;
+display: flex;
+justify-content: center;
+height: 350px;
+width: 120px;
+z-index: -1;`;
+
+const PictureUI = ({
+src = "../public/illustration.png"
+    }) => {
+   return <Image>
+        <PictureUI src={src}></PictureUI>
+   </Image>
+
+    }
+
 
 
 

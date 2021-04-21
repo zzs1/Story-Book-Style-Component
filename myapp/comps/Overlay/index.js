@@ -1,13 +1,15 @@
 import styles from '../../styles/Home.module.css'
+import styled from 'styled-components'
+
 
 
 function OverlayUI (){
     return(
       <div className={styles.overlay}>
-      Impending feeling of doom:
-      Anxiety incurrs a pending sense of doom that disarray your concentration
+      {content}
       </div>
     )
   }
   
-  export default OverlayUI;
+
+export default OverlayUI;
