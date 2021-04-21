@@ -11,7 +11,9 @@ export default function Terms() {
     return (
       <div className={styles.container}>
           <TopBar />
-        <HeadingUI />
+        <HeadingUI
+        title="Before the test"
+        subhead="Terms of reference" />
         <BorderUI/>
         <PsNoteUI />
         <ButtonUI 

@@ -11,7 +11,9 @@ export default function Intro() {
     return (
       <div className={styles.container}>
           <TopBar />
-        <HeadingUI />
+        <HeadingUI 
+        title="About Retheraph"
+        subhead="Brief of the app"/>
         <ContentUI />
         <ContentUI />
         <ContentUI />

@@ -16,12 +16,12 @@ height:50px;
 margin-left:40px;
 `;
 
-// const TopBar  => {
+const TopBar  => {
     
-// return 
-//     //    <img src={`/image/backicon.png`}></img>
+return 
+    //    <img src={`/image/backicon.png`}></img>
 
-//     //     <img src={`/image/logo_bg.png`}></img>
+    //     <img src={`/image/logo_bg.png`}></img>
    
-//   }
-//   export default TopBar;
+  }
+  export default TopBar;

@@ -1,24 +1,30 @@
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/Home.module.css';
+import React from 'react';
+import styled from 'styled-components';
 
-const headingStyle = () => ({
-    color: "#52A1C3",
-    fontfamily: 'Roboto, sans-serif',
-    textAlign:"left",
-    padding:"10px",
-})
+const Title = styled.h2`
+    color: #52A1C3;
+    fontfamily: 'Roboto, sans-serif';
+    textAlign: left;
+    padding: 10px;
+`;
 
-const subHeadstyle = () => ({
-    lineHeight: "0.5",
-    marginBottom:"20px",
-})
+const Subhead =styled.h3`
+color: #52A1C3;
+    lineHeight: 0.5;
+    margin-bottom:20px;
+`;
 
-function HeadingUI(){
+const HeadingUI =({
+  title="",
+  subhead="",
+})=> {
     return (
-        <div className={styles.title}
-        style={headingStyle()}>
-          <h1 className={styles.title} style={subHeadstyle()}>Heading</h1>
-          <h3 className={styles.title} style={subHeadstyle()}>Sub-heading</h3>
+    <div>
+      <Title>{title}</Title>
+      <Subhead>{subhead}</Subhead>
         </div>
-      )
+    )
+      
 }  
 export default HeadingUI;

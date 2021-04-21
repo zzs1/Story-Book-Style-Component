@@ -13,6 +13,7 @@ const HomeCont = styled.div`
 //     height: 100px;
 // }
 `;
+
 function HomeUI() {
     return <HomeCont >
        <div className="body">
