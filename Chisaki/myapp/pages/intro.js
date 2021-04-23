@@ -16,8 +16,8 @@ export default function Intro() {
         title="About Retheraph"
         subhead="Brief of the app"/>
         <J_Content/>
-        <J_Content />
-        <J_Content />
+        {/* <J_Content />
+        <J_Content /> */}
         <PsNoteUI />
         <div className={styles.learn_imgbutton}>
         <ImgBox />

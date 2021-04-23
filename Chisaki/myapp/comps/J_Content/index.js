@@ -18,8 +18,9 @@ function J_Content(){
         <div className={styles.title}
         style={contentStyle()}>
           <p className={styles.title} style={pStyle()}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.  Fusce nec tellus sed augue semper porta. Mauris massa. 
-            
+           Retheraph is come from theraphist, our goal is to make our app be like your therphist that show the potential illness you may have.
+         Mental health is always an issue across different country, people may easily ignore their mental health due to busy work life  
+          Our main goal is to help people to record their mental issues , keep tracking their emotion/feeling everyday. Also, educate people to build a good mental health.
           </p>
         </div>
       )
