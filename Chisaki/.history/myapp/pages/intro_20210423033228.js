@@ -24,7 +24,7 @@ export default function Intro() {
         <ButtonUI 
         title="NEXT"
         subtext=""
-        routeTo="/terms"
+        routeTo='/terms
         bgcolor="#52A1C3"
         />
         </div>

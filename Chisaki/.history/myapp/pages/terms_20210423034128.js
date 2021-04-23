@@ -4,7 +4,7 @@ import J_Head from '../comps/J_Head'
 import BorderUI from '../comps/Border'
 import PsNoteUI from '../comps/PsNote'
 import ButtonUI from '../comps/Button/index2.js'
-import ImgBox from '../comps/ImgBox'
+import ImgBox from '../comps/ImgBox/index2.js'
 
 
 export default function Terms() {

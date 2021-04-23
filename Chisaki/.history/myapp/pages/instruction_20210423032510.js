@@ -44,7 +44,7 @@ export default function home() {
     subtext="Result base on the mental test"
     routeTo="/s_suggestion"
     borderTop="0"
-    borderBottom=""
+        borderBottom=""
         />
     </div>
     <div className={styles.buttonBox}>

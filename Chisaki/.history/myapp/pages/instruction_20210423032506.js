@@ -42,9 +42,9 @@ export default function home() {
     src="apps_pic/img_learn.png"
     title="Take our suggestion"
     subtext="Result base on the mental test"
-    routeTo="/s_suggestion"
-    borderTop="0"
-    borderBottom=""
+        routeTo="/s_suggestion"
+        borderTop="0"
+        borderBottom=""
         />
     </div>
     <div className={styles.buttonBox}>

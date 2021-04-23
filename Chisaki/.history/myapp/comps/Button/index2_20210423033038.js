@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import {useRouter} from 'next/router' 
 
 const CardCont = styled.div`
-background:${props=>props.bgcolor};
+background-color:${props=>props.bgcolor};
 width:100px;
 height:50px;
 border-radius:10px;
