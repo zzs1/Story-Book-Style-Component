@@ -38,7 +38,6 @@ export default function Learn() {
     <ButtonUI
     title="NEXT"
     subtext= ""
-    routeTo="/diagram"
     />
     </div>
     </div>

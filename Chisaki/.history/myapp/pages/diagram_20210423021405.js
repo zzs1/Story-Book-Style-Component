@@ -2,7 +2,27 @@ import {useRouter} from 'next/router'
 import {useState} from 'react'
 import styles from '../styles/Home.module.css'
 import React from 'react'
+import TopBar from '../comps/TopBar'
 import HeadlineUI from '../comps/S_Headline'
+import OverlayUI from '../comps/Overlay'
+import PicturebuttonUI from '../comps/Picturebutton'
+import PictureUI from '../comps/Picture'
+import ButtonUI from '../comps/Button'
+import J_Head from '../comps/J_Head'
+
+
+
+
+
+export default function Home() {
+
+  const [buttonstate1, setButtonState1] = useState(false);  
+    
+import {useRouter} from 'next/router'
+import {useState} from 'react'
+import styles from '../styles/Home.module.css'
+import React from 'react'
+import HeadlineUI from '../comps/Headline'
 import Overlay from '../comps/Overlay'
 import PicBtn1 from '../comps/PicBtn1'
 import PicBtn2 from '../comps/PicBtn2'
