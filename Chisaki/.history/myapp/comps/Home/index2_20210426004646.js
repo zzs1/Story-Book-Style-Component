@@ -87,7 +87,7 @@ ps="Check your mental condition & Take  care your mental health",
   const router = useRouter();
   return <CardCont>
     <TopBar 
-    visibility="hidden"
+    
     />
   <Cont>
     <C1></C1>

@@ -18,7 +18,7 @@ text-align:left;
 position:absolute;
 left:20px;
 top:15px;
-visibility:${props=>props.visibility};
+
 `;
 const Logo = styled.img`
 width:115px;
@@ -35,7 +35,7 @@ position:absolute;
 left:340px;
 top:17px;
 color:#FFFFFF;
-
+visibility:${props=>props.visibility};
 `;
 const TopBar= ({
 routeTo="/",
@@ -46,7 +46,6 @@ visibility="visible"
 <HomeIcon 
 src="/image/home.png"
 onClick={()=>router.push(routeTo)} 
-visibility={visibility}
 />
 <Logo 
 src="/apps_pic/logo.png"
@@ -54,7 +53,7 @@ visibility={visibility}
 />
 <Menu 
 src="/icons/menu.png"
-
+visivility={visivility}
 />
   </Cont>
 }

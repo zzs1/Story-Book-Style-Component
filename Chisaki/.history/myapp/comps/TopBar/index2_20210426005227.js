@@ -46,7 +46,6 @@ visibility="visible"
 <HomeIcon 
 src="/image/home.png"
 onClick={()=>router.push(routeTo)} 
-visibility={visibility}
 />
 <Logo 
 src="/apps_pic/logo.png"
@@ -54,7 +53,7 @@ visibility={visibility}
 />
 <Menu 
 src="/icons/menu.png"
-
+visibility={visibility}
 />
   </Cont>
 }

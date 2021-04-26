@@ -18,7 +18,7 @@ text-align:left;
 position:absolute;
 left:20px;
 top:15px;
-visibility:${props=>props.visibility};
+
 `;
 const Logo = styled.img`
 width:115px;
@@ -26,36 +26,28 @@ height:25px;
 position:absolute;
 left:140px;
 top:13px;
-visibility:${props=>props.visibility};
 `;
 const Menu = styled.img`
 width:26px;
 height:24px;
 position:absolute;
-left:340px;
+right:px;
 top:17px;
 color:#FFFFFF;
-
 `;
 const TopBar= ({
-routeTo="/",
-visibility="visible"
+routeTo="/"
 })=>{
   const router = useRouter();
   return<Cont>
 <HomeIcon 
 src="/image/home.png"
 onClick={()=>router.push(routeTo)} 
-visibility={visibility}
 />
 <Logo 
-src="/apps_pic/logo.png"
-visibility={visibility}
-/>
+src="/apps_pic/logo.png" />
 <Menu 
-src="/icons/menu.png"
-
-/>
+src="/icons/menu.png"/>
   </Cont>
 }
    
