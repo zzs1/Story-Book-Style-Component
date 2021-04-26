@@ -19,10 +19,23 @@ const J_Content =({
 content="abc"
 })=> {
     return (
+<<<<<<< HEAD
         <ContentStyle>
             <Pstyle>{content}</Pstyle>
         </ContentStyle>
      
     )
 }
+=======
+        <div className={styles.title}
+        style={contentStyle()}>
+          <p className={styles.title} style={pStyle()}>
+           Retheraph is come from theraphist, our goal is to make our app be like your therphist that show the potential illness you may have.
+         Mental health is always an issue across different country, people may easily ignore their mental health due to busy work life  
+          Our main goal is to help people to record their mental issues , keep tracking their emotion/feeling everyday. Also, educate people to build a good mental health.
+          </p>
+        </div>
+      )
+}  
+>>>>>>> 92180026e279c27027a0a44e85942217d07ab023
 export default J_Content;

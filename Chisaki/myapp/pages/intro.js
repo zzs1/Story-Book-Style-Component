@@ -13,6 +13,7 @@ export default function Intro() {
       <div className={styles.base}>
           <TopBar />
         <J_Head
+<<<<<<< HEAD
         title="About Us"
         subhead="What is RETHERAPH?" />
         <J_Content
@@ -25,6 +26,13 @@ export default function Intro() {
         content="Our main goal is to help people to check their mental issues, keep tracking their emotion/feeling every day. Also, the app helps people to know the way to stay healthy mentally."
         />
         <div className={styles.psnotebox}>
+=======
+        title="About Retheraph"
+        subhead="Brief of the app"/>
+        <J_Content/>
+        {/* <J_Content />
+        <J_Content /> */}
+>>>>>>> 92180026e279c27027a0a44e85942217d07ab023
         <PsNoteUI />
         </div>
         <div className={styles.learn_imgbutton}>
