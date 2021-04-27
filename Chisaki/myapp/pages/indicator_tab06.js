@@ -1,6 +1,6 @@
 import ButtonUI from '../comps/Button/index2'
 import Tabhead from '../comps/Tabhead/index'
-import TopBar from '../comps/TopBar/index'
+import TopBar from '../comps/TopBar/index2'
 import TabInfo06 from '../comps/TabInfo06/index'
 import styles from '../styles/Home.module.css'
 
