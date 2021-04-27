@@ -199,14 +199,14 @@ const Widget = ({
   const router = useRouter();
   return <CardDiv>
         <WidgetDiv>
-        <CardCont1 onClick={()=>router.push("/")}><Widgetcontent><img src="../../logo/01.png"/><WidgetH>{text1}</WidgetH></Widgetcontent></CardCont1>
-        <CardCont2 onClick={()=>router.push("/")}><Widgetcontent><img src="../../logo/02.png"/><WidgetH2>{text2}</WidgetH2></Widgetcontent></CardCont2>
-        <CardCont3 onClick={()=>router.push("/")}><Widgetcontent><img src="../../logo/03.png"/><WidgetH2>{text3}</WidgetH2></Widgetcontent></CardCont3>
-        <CardCont4 onClick={()=>router.push("/")}><Widgetcontent><img src="../../logo/04.png"/><WidgetH>{text4}</WidgetH></Widgetcontent></CardCont4>
-        <CardCont5 onClick={()=>router.push("/")}><Widgetcontent><img src="../../logo/05.png"/><WidgetH>{text5}</WidgetH></Widgetcontent></CardCont5>
-        <CardCont6 onClick={()=>router.push("/")}><Widgetcontent><img src="../../logo/06.png"/><WidgetH2>{text6}</WidgetH2></Widgetcontent></CardCont6>
-        <CardCont7 onClick={()=>router.push("/")}><Widgetcontent><img src="../../logo/07.png"/><WidgetH2>{text7}</WidgetH2></Widgetcontent></CardCont7>
-        <CardCont8 onClick={()=>router.push("/")}><Widgetcontent><img src="../../logo/08.png"/><WidgetH>{text8}</WidgetH></Widgetcontent></CardCont8>
+        <CardCont1 onClick={()=>router.push("/indicator_tab01")}><Widgetcontent><img src="../../logo/01.png"/><WidgetH>{text1}</WidgetH></Widgetcontent></CardCont1>
+        <CardCont2 onClick={()=>router.push("/indicator_tab02")}><Widgetcontent><img src="../../logo/02.png"/><WidgetH2>{text2}</WidgetH2></Widgetcontent></CardCont2>
+        <CardCont3 onClick={()=>router.push("/indicator_tab03")}><Widgetcontent><img src="../../logo/03.png"/><WidgetH2>{text3}</WidgetH2></Widgetcontent></CardCont3>
+        <CardCont4 onClick={()=>router.push("/indicator_tab04")}><Widgetcontent><img src="../../logo/04.png"/><WidgetH>{text4}</WidgetH></Widgetcontent></CardCont4>
+        <CardCont5 onClick={()=>router.push("/indicator_tab05")}><Widgetcontent><img src="../../logo/05.png"/><WidgetH>{text5}</WidgetH></Widgetcontent></CardCont5>
+        <CardCont6 onClick={()=>router.push("/indicator_tab06")}><Widgetcontent><img src="../../logo/06.png"/><WidgetH2>{text6}</WidgetH2></Widgetcontent></CardCont6>
+        <CardCont7 onClick={()=>router.push("/indicator_tab07")}><Widgetcontent><img src="../../logo/07.png"/><WidgetH2>{text7}</WidgetH2></Widgetcontent></CardCont7>
+        <CardCont8 onClick={()=>router.push("/indicator_tab08")}><Widgetcontent><img src="../../logo/08.png"/><WidgetH>{text8}</WidgetH></Widgetcontent></CardCont8>
         </WidgetDiv>
   </CardDiv>
   
