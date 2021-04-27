@@ -1,4 +1,4 @@
-import TopBar from '../comps/TopBar'
+import TopBar from '../comps/TopBar/index2'
 import ButtonUI from '../comps/Button/index2'
 import styles from '../styles/Home.module.css'
 import Widget from '../comps/Widget/index'
@@ -15,7 +15,7 @@ export default function Indicator() {
           <ButtonUI
     title="SEE SUGGESTION"
     subtext= ""
-    routeTo="/"
+    routeTo="/advise"
     bgcolor="#52A1C3"
     />
           </div>

@@ -16,7 +16,7 @@ export default function Indicator_tab03() {
             <ButtonUI
     title="BACK"
     subtext= ""
-    routeTo="/"
+    routeTo="/indicator"
     bgcolor="#52A1C3"
     />
           </div>
