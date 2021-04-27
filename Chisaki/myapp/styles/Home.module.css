@@ -7,8 +7,9 @@ height:667px;
   display:flex;
   flex-direction:row;
   flex-wrap: wrap;
-
-
+}
+.span{
+color: red;
 }
 .container{
   width:375px;
