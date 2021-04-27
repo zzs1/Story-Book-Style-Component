@@ -26,5 +26,4 @@ content="abc"
      
     )
 }
-
 export default J_Content;

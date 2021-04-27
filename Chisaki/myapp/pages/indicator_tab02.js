@@ -13,7 +13,12 @@ export default function Indicator_tab02() {
           <div className={styles.containerbox}>
             <Tabhead Sub="Feeling guilty or worthless" title="Symptom Indicator"/>
             <TabInfo02 src="../../logo/02.png"/>
-          <ButtonUI/>
+            <ButtonUI
+    title="BACK"
+    subtext= ""
+    routeTo="/"
+    bgcolor="#52A1C3"
+    />
           </div>
           </div>
     )

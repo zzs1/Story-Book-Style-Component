@@ -11,9 +11,14 @@ export default function Indicator_tab01() {
           <div className={styles.base}>
           <TopBar/>
           <div className={styles.containerbox}>
-            <Tabhead Sub="Feeling Anxious or worried" title="Symptom Indicator"/>
+            <Tabhead Sub="Feeling Anxious or Worried" title="Symptom Indicator"/>
             <TabInfo01 src="../../logo/01.png"/>
-          <ButtonUI/>
+            <ButtonUI
+    title="BACK"
+    subtext= ""
+    routeTo="/"
+    bgcolor="#52A1C3"
+    />
           </div>
           </div>
     )

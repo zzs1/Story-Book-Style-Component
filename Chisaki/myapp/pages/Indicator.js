@@ -12,7 +12,12 @@ export default function Indicator() {
           <div className={styles.containerbox}>
           <TitleUI title="Symptom indicator" subtitle="Click to check the mental illness symptoms"/>
           <Widget/>
-          <ButtonUI/>
+          <ButtonUI
+    title="SEE SUGGESTION"
+    subtext= ""
+    routeTo="/"
+    bgcolor="#52A1C3"
+    />
           </div>
           </div>
     )

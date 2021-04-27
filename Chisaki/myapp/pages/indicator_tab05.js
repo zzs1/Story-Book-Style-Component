@@ -13,7 +13,12 @@ export default function Indicator_tab05() {
           <div className={styles.containerbox}>
             <Tabhead Sub="Substance abuse" title="Symptom Indicator"/>
             <TabInfo05 src="../../logo/05.png"/>
-          <ButtonUI/>
+            <ButtonUI
+    title="BACK"
+    subtext= ""
+    routeTo="/"
+    bgcolor="#52A1C3"
+    />
           </div>
           </div>
     )

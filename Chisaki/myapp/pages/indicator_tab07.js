@@ -13,7 +13,12 @@ export default function Indicator_tab07() {
           <div className={styles.containerbox}>
             <Tabhead Sub="Sleep problems" title="Symptom Indicator"/>
             <TabInfo07 src="../../logo/07.png"/>
-          <ButtonUI/>
+            <ButtonUI
+    title="BACK"
+    subtext= ""
+    routeTo="/"
+    bgcolor="#52A1C3"
+    />
           </div>
           </div>
     )

@@ -13,7 +13,12 @@ export default function Indicator_tab04() {
           <div className={styles.containerbox}>
             <Tabhead Sub="Quiet or withdrawn" title="Symptom Indicator"/>
             <TabInfo04 src="../../logo/04.png"/>
-          <ButtonUI/>
+            <ButtonUI
+    title="BACK"
+    subtext= ""
+    routeTo="/"
+    bgcolor="#52A1C3"
+    />
           </div>
           </div>
     )
