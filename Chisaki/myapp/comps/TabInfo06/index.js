@@ -96,7 +96,9 @@ const TabInfo06 = ({
     bgcolor="#CDF0EE",
     src=""
   }) =>{
-    return <Tabs bg={bgcolor}><Headstick src={src}/><Tit>Conditions and Symptoms</Tit><Detail>Anxiety and panic interfere with daily activities, are difficult to control, are out of proportion to the actual danger and can last a long time. <span className={styles.span}>Symptoms may start during childhood or the teen years</span> and continue into adulthood.</Detail>
+    return <Tabs bg={bgcolor}><Headstick src={src}/><Tit>Conditions and Symptoms</Tit><Detail>
+      Explosive eruptions occur suddenly, with little or no warning, and usually last for a short time. This may occur frequently. Less severe verbal outbursts may occur in between episodes of physical aggression. You may be  
+      <span className={styles.span}>irritable, impulsive, aggressive, or chronically angry most of the time.</span> </Detail>
     <Line>Seeks out for Professionals!</Line>
     <Verb><A  href="https://www.mentalfreedom.ca/">Visit https://www.mentalfreedom.ca/</A></Verb>
     <Last>For professional instruction</Last>

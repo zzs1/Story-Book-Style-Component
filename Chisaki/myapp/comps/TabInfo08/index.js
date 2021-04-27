@@ -96,7 +96,11 @@ const TabInfo08 = ({
     bgcolor="#CDF0EE",
     src=""
   }) =>{
-    return <Tabs bg={bgcolor}><Headstick src={src}/><Tit>Conditions and Symptoms</Tit><Detail>Anxiety and panic interfere with daily activities, are difficult to control, are out of proportion to the actual danger and can last a long time. <span className={styles.span}>Symptoms may start during childhood or the teen years</span> and continue into adulthood.</Detail>
+    return <Tabs bg={bgcolor}><Headstick src={src}/><Tit>Conditions and Symptoms</Tit><Detail>
+    Personality change refers to 
+      <span className={styles.span}>a shift in the way you think, act, or feel.  </span>
+      A sudden, undesired, or uncontrollable change in your personality may be a sign of a serious condition. Personality changes may be 
+      <span className={styles.span}> the result of an interplay of factors, including heredity, environment, and stress. </span></Detail>
     <Line>Seeks out for Professionals!</Line>
     <Verb><A  href="https://www.mentalfreedom.ca/">Visit https://www.mentalfreedom.ca/</A></Verb>
     <Last>For professional instruction</Last>

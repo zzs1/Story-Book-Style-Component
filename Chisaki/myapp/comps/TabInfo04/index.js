@@ -96,7 +96,11 @@ const TabInfo04 = ({
     bgcolor="#CDF0EE",
     src=""
   }) =>{
-    return <Tabs bg={bgcolor}><Headstick src={src}/><Tit>Conditions and Symptoms</Tit><Detail>Anxiety and panic interfere with daily activities, are difficult to control, are out of proportion to the actual danger and can last a long time. <span className={styles.span}>Symptoms may start during childhood or the teen years</span> and continue into adulthood.</Detail>
+    return <Tabs bg={bgcolor}><Headstick src={src}/><Tit>Conditions and Symptoms</Tit><Detail>
+     <span className={styles.span}>Avoiding work, social, or school activities </span>
+     for fear of criticism or rejection. Also, you may frequently
+      <span className={styles.span}> feel unwelcome </span> 
+      in social situations. This is because people with avoidant personality disorder have a low threshold for criticism and often imagine themselves to be inferior to others.</Detail>
     <Line>Seeks out for Professionals!</Line>
     <Verb><A  href="https://www.mentalfreedom.ca/">Visit https://www.mentalfreedom.ca/</A></Verb>
     <Last>For professional instruction</Last>
