@@ -21,11 +21,11 @@ top:15px;
 visibility:${props=>props.visibility};
 `;
 const Logo = styled.img`
-width:115px;
-height:25px;
+width:135px;
+height:30px;
 position:absolute;
-left:140px;
-top:13px;
+left:130px;
+top:18px;
 visibility:${props=>props.visibility};
 `;
 const Menu = styled.img`
@@ -49,7 +49,7 @@ onClick={()=>router.push(routeTo)}
 visibility={visibility}
 />
 <Logo 
-src="/apps_pic/logo.png"
+src="/apps_pic/app_logo.png"
 visibility={visibility}
 />
 <Menu 
