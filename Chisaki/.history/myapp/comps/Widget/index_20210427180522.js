@@ -86,7 +86,6 @@ const CardCont8 = styled.div`
   justify-content:center;
   align-items;center;
   color:white;
-  margin:5px;
 `;
 
 

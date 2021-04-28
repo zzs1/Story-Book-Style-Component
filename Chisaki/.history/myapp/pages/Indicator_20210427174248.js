@@ -12,7 +12,7 @@ export default function Indicator() {
           <J_head 
           title="Symptom indicator" 
           subhead="Click to check the mental illness symptoms"/>
-          <Widget/><br></br>
+          <Widget/>
           <div className={styles.buttonBox}>
           <ButtonUI
             title="SEE SUGGESTION"

@@ -65,7 +65,6 @@ const CardCont6 = styled.div`
   justify-content:center;
   align-items;center;
   color:#52A1C3;
-  margin:5px;
 `;
 const CardCont7 = styled.div`
   background-color: #CDF0EE;
@@ -75,7 +74,6 @@ const CardCont7 = styled.div`
   justify-content:center;
   align-items;center;
   color:#52A1C3;
-  margin:5px;
 `;
 
 const CardCont8 = styled.div`
@@ -86,7 +84,6 @@ const CardCont8 = styled.div`
   justify-content:center;
   align-items;center;
   color:white;
-  margin:5px;
 `;
 
 
