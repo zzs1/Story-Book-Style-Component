@@ -4,7 +4,13 @@ import {useRouter} from 'next/router'
 import ButtonUI from '../Button/index2'
 import styles from '../../styles/Home.module.css'
 import TopBar from '../TopBar/index2';
+import { keyframes } from 'styled-components'
 
+
+const BreathAnimation = keyframes`
+0% { transform: scale(.5, .5); opacity: .2;}
+100% {    transform: scale(2.5, 2.5); opacity: 0; }
+`
 
 const CardCont = styled.div`
 background:#82DED9;
@@ -30,38 +36,47 @@ const C1 = styled.div`
 justify-content:center;
 align-items:center;
 background:#FFFFFF;
-opacity:0.15;
 border-radius: 50%;
 width: 377px;
 height: 377px;
 position:absolute;
 top:80px;
+animation-name: ${BreathAnimation};
+animation-duration: 8s;
+animation-delay: -2s;
+animation-iteration-count: infinite;
 `;
 
 const C2 = styled.div`
 justify-content:center;
 align-items:center;
 background:#FFFFFF;
-opacity:0.15;
 border-radius: 50%;
 width: 340px;
 height: 340px;
 position:absolute;
 left:20px;
 top:100px;
+animation-name: ${BreathAnimation};
+animation-duration: 8s;
+animation-delay: -1s;
+animation-iteration-count: infinite;
 `;
 
 const C3 = styled.div`
 justify-content:center;
 align-items:center;
 background:#FFFFFF;
-opacity:0.15;
 border-radius: 50%;
 width: 303px;
 height: 303px;
 position:absolute;
 left:40px;
 top:120px;
+animation-name: ${BreathAnimation};
+animation-duration: 8s;
+animation-delay: 0s;
+animation-iteration-count: infinite;
 `;
 
 const Logo = styled.img`
