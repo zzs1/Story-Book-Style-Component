@@ -14,7 +14,7 @@ margin-left:20px;
   
 `;
 
-const Subhead =styled.div`
+const Subhead =styled.p`
   color: #52A1C3;
   font-family: 'Saira Semi Condensed', sans-serif;
   margin-bottom:20px;
