@@ -37,7 +37,6 @@ font-weight:bold;
 
 const Ps = styled.p`
 color:#52A1C3;
-font-size:12px;
 `;
 
 const HowToUI = ({

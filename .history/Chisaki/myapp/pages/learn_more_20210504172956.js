@@ -53,7 +53,7 @@ export default function Learn() {
      <ButtonUI
     title="SEE SUGGESTION"
     subtext= ""
-    routeTo="/suggestions"
+    routeTo="/"
     bgcolor="#52A1C3"
     />
     </div>

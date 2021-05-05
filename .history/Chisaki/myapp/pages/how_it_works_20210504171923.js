@@ -14,32 +14,33 @@ export default function HowTo() {
         <TopBar />
         <J_Head
         title="How it works"
-        subhead={<div className={styles.clickinstBox}><p>Click buttons to check each category</p><img src="/icon.png" className={styles.clickbtn}/></div>}
+        subhead="" 
         />
         <HowToUI 
-        title="TEST"
+        title="Take the test"
         subtext="Complete the 6 Questions test"
         routeTo='/s_test'
         src="/apps_pic/test.jpg"
         />
         <HowToUI 
-        title="RESULT"
+        title="Get the result"
         subtext="Get the result base on the mental test"
         routeTo='/s_result'
         src="/apps_pic/result.jpg"
         />
         <HowToUI 
-        title="LEARN"
+        title="Learn mental illness"
         subtext="Learn about the physical and mental symptoms "
         routeTo='/s_understand'
         src="/apps_pic/img_learn.png"
         />
         <HowToUI 
-         title="SUGGESTIONS"
+         title="Get suggestions"
          subtext="See suggestions for treating the mental illnesses"
          routeTo='/s_suggestion'
          src="/apps_pic/suggestion.png"
         />
+        <br></br>
         <br></br>
         <div className={styles.buttonBox}>
         <ButtonUI

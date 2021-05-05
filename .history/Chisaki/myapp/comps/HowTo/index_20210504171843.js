@@ -31,13 +31,12 @@ const Title= styled.p`
 color:#52A1C3;
 justify-content:center;
 margin-top:7px;
-font-size:15px;
+font-size:12px;
 font-weight:bold;
 `;
 
 const Ps = styled.p`
 color:#52A1C3;
-font-size:12px;
 `;
 
 const HowToUI = ({

@@ -14,7 +14,7 @@ export default function HowTo() {
         <TopBar />
         <J_Head
         title="How it works"
-        subhead={<div className={styles.clickinstBox}><p>Click buttons to check each category</p><img src="/icon.png" className={styles.clickbtn}/></div>}
+        subhead="" 
         />
         <HowToUI 
         title="TEST"
@@ -40,6 +40,7 @@ export default function HowTo() {
          routeTo='/s_suggestion'
          src="/apps_pic/suggestion.png"
         />
+        <br></br>
         <br></br>
         <div className={styles.buttonBox}>
         <ButtonUI

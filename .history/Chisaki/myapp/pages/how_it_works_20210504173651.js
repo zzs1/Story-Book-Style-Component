@@ -14,7 +14,7 @@ export default function HowTo() {
         <TopBar />
         <J_Head
         title="How it works"
-        subhead={<div className={styles.clickinstBox}><p>Click buttons to check each category</p><img src="/icon.png" className={styles.clickbtn}/></div>}
+        subhead={<div><p>Click buttons to check each category</p><img src="/icon.png" width="30px" height="30px" style=/></div>}
         />
         <HowToUI 
         title="TEST"

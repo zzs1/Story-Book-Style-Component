@@ -20,8 +20,8 @@ display:flex;
 flex-direction:column;
 `;
 const Buttons = styled.div`
-width:150px;
-height:30px;
+width:170px;
+height:25px;
 background-color:#DADADA;
 border-radius:10px;
 text-align:center;
@@ -30,14 +30,13 @@ text-align:center;
 const Title= styled.p`
 color:#52A1C3;
 justify-content:center;
-margin-top:7px;
-font-size:15px;
+margin-top:4px;
+font-size:12px;
 font-weight:bold;
 `;
 
 const Ps = styled.p`
 color:#52A1C3;
-font-size:12px;
 `;
 
 const HowToUI = ({

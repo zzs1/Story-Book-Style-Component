@@ -99,9 +99,9 @@ color: #EF9595;
   color:#52A1C3;
 }
 .clickinstBox{
-  display:flex;
+  display:inline;
 }
 .clickbtn{
-height:50px;
-width:50px;
+height:30px;
+width:30px;
 }

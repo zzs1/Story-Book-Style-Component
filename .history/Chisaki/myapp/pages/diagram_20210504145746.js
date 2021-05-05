@@ -140,10 +140,11 @@ export default function Diagram() {
        routeTo="/learn_more"
        bgcolor="#52A1C3"
        />
+       {/*CHANGE the routeTo to suggestion */}
         <ButtonUI 
        title="SEE SUGGESTION"
        subtext=""
-       routeTo="/suggestions"
+       routeTo="/advise"
        bgcolor="#52A1C3"
        />
       </div>
