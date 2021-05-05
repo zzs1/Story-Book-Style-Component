@@ -13,14 +13,6 @@ const PsStyle = styled.p`
     margin-left:20px;
     `;
 
-const PsStyle2 = styled.p`
-    color:#58ABAE;
-    font-family: 'Saira Semi Condensed', sans-serif;
-    text-align:left;
-    font-size:10px;
-    width:80%;
-    margin-left:20px;
-    `;
 const Strong = styled.strong`
 font-weight:bold;
 margin:0;
@@ -28,9 +20,6 @@ margin:0;
 
 const A = styled.a`
 color: #52A1C3;
-`;
-const A2 = styled.a`
-color:#58ABAE;
 `;
    // a:hoverBackgroundColor: "yellow";
       
@@ -42,10 +31,10 @@ const PsNoteUI = ({
             <PsStyle>
                 <Strong>Resources:</Strong><br></br>
                  <A href="https://www.achn.net/about-access/whats-new/health-resources/3-most-common-mental-health-disorders-in-america/">https://www.achn.net/about-access/whats-new/health-resources/3-most-common-mental-health-disorders-in-america/</A></PsStyle>
-          <PsStyle2>
+          <PsStyle>
             Please feel free to contact us: 
-            <Strong> <A2 href="mailto: retheraph_app@gmail.com">  retheraph_app@gmail.com </A2></Strong>
-          </PsStyle2>
+            <Strong> <A href="mailto: retheraph_app@gmail.com">  retheraph_app@gmail.com </A></Strong>
+          </PsStyle>
           </Cont>
         
       )

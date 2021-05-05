@@ -30,7 +30,7 @@ const A = styled.a`
 color: #52A1C3;
 `;
 const A2 = styled.a`
-color:#58ABAE;
+color: #52A1C3;
 `;
    // a:hoverBackgroundColor: "yellow";
       

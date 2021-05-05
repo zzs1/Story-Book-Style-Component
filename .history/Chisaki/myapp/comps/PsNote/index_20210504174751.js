@@ -29,9 +29,6 @@ margin:0;
 const A = styled.a`
 color: #52A1C3;
 `;
-const A2 = styled.a`
-color:#58ABAE;
-`;
    // a:hoverBackgroundColor: "yellow";
       
 const PsNoteUI = ({
@@ -44,7 +41,7 @@ const PsNoteUI = ({
                  <A href="https://www.achn.net/about-access/whats-new/health-resources/3-most-common-mental-health-disorders-in-america/">https://www.achn.net/about-access/whats-new/health-resources/3-most-common-mental-health-disorders-in-america/</A></PsStyle>
           <PsStyle2>
             Please feel free to contact us: 
-            <Strong> <A2 href="mailto: retheraph_app@gmail.com">  retheraph_app@gmail.com </A2></Strong>
+            <Strong> <A href="mailto: retheraph_app@gmail.com">  retheraph_app@gmail.com </A></Strong>
           </PsStyle2>
           </Cont>
         

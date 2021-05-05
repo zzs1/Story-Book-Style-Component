@@ -29,9 +29,6 @@ margin:0;
 const A = styled.a`
 color: #52A1C3;
 `;
-const A2 = styled.a`
-color:#58ABAE;
-`;
    // a:hoverBackgroundColor: "yellow";
       
 const PsNoteUI = ({
