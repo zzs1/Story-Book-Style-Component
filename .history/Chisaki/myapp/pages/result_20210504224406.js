@@ -29,6 +29,7 @@ export default function result() {
       level="Mild"
       />
       <br></br>
+     
       <div className={styles.suggestButton}>
       <ButtonUI
       title="HELP LINE"

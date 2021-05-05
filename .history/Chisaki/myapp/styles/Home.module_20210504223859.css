@@ -12,16 +12,16 @@ height:667px;
 color: #EF9595;
 }
 .container{
-  width:377px;
+  width:375px;
   display:flex;
   flex-direction:column;
   justify-content: center;
-
+  margin:5px;
 
 }
 
 .answerbox{
-  width:377px;
+  width:375px;
   background-color:#FFFFFF;
   display: flex;
   flex-wrap: wrap;
@@ -33,6 +33,7 @@ color: #EF9595;
   display: flex;
   justify-content: center;
   width:375px;
+  margin-
 }
 /*Joyce*/
 .topBar{

@@ -29,6 +29,8 @@ export default function result() {
       level="Mild"
       />
       <br></br>
+      <br></br>
+      <br></br>
       <div className={styles.suggestButton}>
       <ButtonUI
       title="HELP LINE"
@@ -38,7 +40,7 @@ export default function result() {
       />
   
      <ButtonUI
-      title="LEARN MORE"
+      title="Learn"
       subtext= ""
       routeTo="/learn_more"
       bgcolor="#52A1C3"

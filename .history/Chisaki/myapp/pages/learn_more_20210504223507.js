@@ -38,11 +38,18 @@ export default function Learn() {
     <div className={styles.buttonBox}>
 
     <ButtonUI
-    title="BACK"
+    title="BACK TO RESULT"
     subtext= ""
     routeTo="/result"
     bgcolor="#52A1C3"
-    />  
+    />
+     <ButtonUI
+    title="BACK TO INSTRUCTION"
+    subtext= ""
+    routeTo="/s_understand"
+    bgcolor="#52A1C3"
+    />
+  
      <ButtonUI
     title="SEE SUGGESTION"
     subtext= ""

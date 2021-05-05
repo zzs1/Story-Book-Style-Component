@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import {useRouter} from 'next/router' 
 import ButtonUI from '../Button/index2'
 import styles from '../../styles/Home.module.css'
+import TopBar from '../TopBar/index2';
 import { keyframes } from 'styled-components'
 
 

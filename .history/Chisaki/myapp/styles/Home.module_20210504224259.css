@@ -12,11 +12,11 @@ height:667px;
 color: #EF9595;
 }
 .container{
-  width:377px;
+  width:37px;
   display:flex;
   flex-direction:column;
   justify-content: center;
-
+  margin:5px;
 
 }
 

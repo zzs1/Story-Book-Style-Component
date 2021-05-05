@@ -13,7 +13,8 @@ flex-direction:column;
 text-align:center;
 color:#FFFFFF;
 font-family:Roboto, sans-serif;
-margin:30px;
+margin:10px;
+
 justify-content:center;
 align-items:center;
 `;

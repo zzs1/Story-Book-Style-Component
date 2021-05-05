@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import {useRouter} from 'next/router' 
 import ButtonUI from '../Button/index2'
 import styles from '../../styles/Home.module.css'
+import TopBar from '../TopBar/index2';
 import { keyframes } from 'styled-components'
 
 
@@ -101,6 +102,7 @@ ps="Check your mental condition & Take  care your mental health",
 }) => {
   const router = useRouter();
   return <CardCont>
+   
   <Cont>
     <C1></C1>
     <C2></C2>

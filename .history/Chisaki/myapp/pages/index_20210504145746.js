@@ -1,4 +1,5 @@
-import HomeUI from '../comps/Home/index'
+import HomeUI from '../comps/Home/index2'
+import TopBar from '../comps/TopBar'
 
 
 

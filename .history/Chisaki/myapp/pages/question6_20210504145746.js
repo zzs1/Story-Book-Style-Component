@@ -43,7 +43,7 @@ export default function Home() {
    <div className={styles.container}>
       <QuestionUI 
       heading="Last Question"
-      content="How ofther do you encounter with acing thoughts; jumping quickly from one idea to the next?"
+      content="How ofther do u encounter with acing thoughts; jumping quickly from one idea to the next?"
       />
       <br></br>
       <div className={styles.answerbox}>

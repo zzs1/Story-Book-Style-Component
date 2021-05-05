@@ -38,11 +38,13 @@ export default function Learn() {
     <div className={styles.buttonBox}>
 
     <ButtonUI
-    title="BACK"
+    title="BACK TO RESULT"
     subtext= ""
     routeTo="/result"
     bgcolor="#52A1C3"
-    />  
+    />
+  
+  
      <ButtonUI
     title="SEE SUGGESTION"
     subtext= ""
