@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import PsNoteUI from '../comps/PsNote/index2'
 import styles from '../styles/Home.module.css'
 import SliderUI from '../comps/Slider/index2'
 import TopBar from '../comps/TopBar/index2'
@@ -64,6 +65,7 @@ export default function Result() {
       value={response3}
       />
       <br></br>
+      <PsNoteUI></PsNoteUI>
       <div className={styles.suggestButton}>
       <ButtonUI
       title="HELP LINE"
@@ -79,7 +81,6 @@ export default function Result() {
       bgcolor="#52A1C3"
       />
       </div>
-      <p>*Result does not represent a real medical diagnosis.</p>
     </div>
 
   )
