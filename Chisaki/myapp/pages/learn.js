@@ -17,7 +17,7 @@ export default function Learn() {
       <TopBar />
     <J_Head
     title="Top 3 Mental Illness In US"
-    subhead="Research done in 2019"
+    subhead="Research in 2019"
     />
     <div className={styles.contentBox}>
     <ContentUI 

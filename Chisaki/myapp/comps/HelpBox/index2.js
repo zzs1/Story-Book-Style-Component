@@ -35,7 +35,6 @@ const Content =styled.p`
     margin-left:65px;
     font-size: 16px;
     margin-top:0px;
-    font-size:12px;
     line-height:20px;
     fontfamily:Roboto sans-serif;
 `;
@@ -52,6 +51,7 @@ const HelpBoxUI = ({
         <Title>{title}</Title>
         </Header>
         <Content>{content}</Content>
+        
     </HelpBox>
     </div>
     )

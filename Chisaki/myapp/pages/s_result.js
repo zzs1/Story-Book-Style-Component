@@ -22,7 +22,7 @@ export default function Test() {
     title="" 
     subtext=""
     routeTo=""
-    Pstyle= "After answering the 6 questions, the app will show you the result of your mental illness level with 3 types which are Anxiety disorder, Bipolar disorder, and major depressive disorder."
+    Pstyle= "After answering the 6 questions, the app will show you the result of your mental condition level with 3 types of mental illness which are Anxiety disorder, Bipolar disorder, and major depressive disorder"
     />
     </div>
     <div className={styles.buttonBox}>

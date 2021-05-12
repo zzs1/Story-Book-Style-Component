@@ -94,7 +94,7 @@ left:80px;
 `;
 
 const HomeUI = ({
-ps="Check your mental condition & Take  care your mental health",
+ps="Check your mental condition  Take  care your mental health Privode help information",
 
 
 

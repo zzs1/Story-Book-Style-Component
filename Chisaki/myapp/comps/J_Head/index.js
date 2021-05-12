@@ -20,6 +20,7 @@ const Subhead =styled.div`
   margin-bottom:20px;
   margin-top:5px;
   margin-left:20px;
+  font-size:16px;
 `;
 
 const J_Head =({

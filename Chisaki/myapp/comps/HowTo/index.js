@@ -25,19 +25,21 @@ height:30px;
 background-color:#DADADA;
 border-radius:10px;
 text-align:center;
+margin-bottom:4px;
 
 `;
 const Title= styled.p`
 color:#52A1C3;
 justify-content:center;
 margin-top:7px;
-font-size:15px;
+font-size:16px;
 font-weight:bold;
 `;
 
 const Ps = styled.p`
 color:#52A1C3;
-font-size:12px;
+font-size:16px;
+margin:0; 
 `;
 
 const HowToUI = ({
@@ -51,7 +53,7 @@ src="/apps_pic/test.jpg"
   return <Cont>
     <ImgBoxUI 
     src={src}
-    />
+    /> 
     <Columns>
 <Buttons
 onClick={()=>router.push(routeTo)}

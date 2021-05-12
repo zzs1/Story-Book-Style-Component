@@ -22,7 +22,7 @@ export default function Test() {
     title="" 
     subtext=""
     routeTo=""
-    Pstyle= "There are a total of 6 questions in the app to scale your mental illness level. Based on your answers, the app will show you the percentage of the possibility of having mental illnesses, specifically Anxiety disorder, Bipolar disorder, and Major depression disorder"
+    Pstyle= "There are a total of 6 questions in the app to scale your mental illness level. Based on your personal condition choose the closer answer. You are allow to review the question before submitting the quiz"
     />
     </div>
     <div className={styles.buttonBox}>

@@ -14,7 +14,6 @@ border-radius:10px;
 border: 2px solid #82DED9;
 background-color:#F1EFEF;
 visibility:${props=>props.visivility};
-
 `;
 
 const Text = styled.p`

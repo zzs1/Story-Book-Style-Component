@@ -22,7 +22,7 @@ export default function Test() {
     title="" 
     subtext=""
     routeTo=""
-    Pstyle= "Mental health and physical health are fundamentally linked. People living with a serious mental illness are at higher risk of experiencing a wide range of chronic physical conditions. To learn more, please clicking LEARN MORE Button."
+    Pstyle= "Mental health and physical health are fundamentally linked. People living with a serious mental illness are at higher risk of experiencing a wide range of chronic physical conditions. To learn more, please clicking LEARN MORE Button"
     />
     </div>
     <div className={styles.buttonBox}>

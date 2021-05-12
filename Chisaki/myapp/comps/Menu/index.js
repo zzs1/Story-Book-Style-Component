@@ -94,8 +94,8 @@ const MenuUI= ({
       <Box>
         <Items onClick={()=>router.push("/how_it_works")}><Icons src="/menu/how.png"/><Title className={styles.hover}>How It Works</Title></Items>
         <Items onClick={()=>router.push("/intro")}><Icons src="/menu/about.png" /><Title className={styles.hover}>About Us</Title></Items>
-        <Items onClick={()=>router.push("/terms")}><Icons src="/menu/test.png" /><Title className={styles.hover}>Test</Title></Items>
-        <Items onClick={()=>router.push("/learn_more")}><Icons src="/menu/learn.png" /><Title className={styles.hover}>Learn</Title></Items>
+        <Items onClick={()=>router.push("/terms")}><Icons src="/menu/test.png" /><Title className={styles.hover}>Mental Test</Title></Items>
+        <Items onClick={()=>router.push("/learn_more")}><Icons src="/menu/learn.png" /><Title className={styles.hover}>Learn More</Title></Items>
         <Items onClick={()=>router.push("/suggestions")}><Icons src="/menu/suggestion.png" /><Title className={styles.hover}>Suggestions</Title></Items>
         <Items onClick={()=>router.push("/help")}><Icons src="/menu/help.png" /><Title className={styles.hover}>Help Line</Title></Items>
       </Box>

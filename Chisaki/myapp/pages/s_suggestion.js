@@ -22,7 +22,7 @@ export default function Test() {
     title="" 
     subtext=""
     routeTo=""
-    Pstyle= "we will provide some suggestions that you can try to make you happy. Our suggestions are all based on the study. To check our suggestions, please clicking SEE SUGGETION Button."
+    Pstyle= "We provide suggestions that helps improving your mental health. Our suggestions are based on the study and research. To check our suggestions, please clicking SEE SUGGETION Button."
     />
     </div>
     <div className={styles.buttonBox}>

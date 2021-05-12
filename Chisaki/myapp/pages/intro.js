@@ -17,13 +17,13 @@ export default function Intro() {
         title="About Us"
         subhead="What is RETHERAPH?" />
         <J_Content
-        content="Retheraph comes from the word therapist, our goal is to be your therapist that shows your potential illnesses you may have."
+        content="Retheraphy comes from the word therapist, our goal is to be your therapist that shows the potential illnesses you may have and improve you mental health."
         />
         <J_Content 
         content="Mental health is a common issue all over the world. people may easily ignore their mental health status because of their busy work life."
         />
         <J_Content 
-        content="Our main goal is to help people to check their mental issues, keep tracking their emotion/feeling every day. Also, the app helps people to know the way to stay healthy mentally."
+        content="In Retheraphy, the small scale test help user to check their mental condition by analysis test answer and evaluate the possible chance of suffering from top 3 mental illnesses ."
         />
         <div className={styles.psnotebox}>
         <PsNoteUI />
