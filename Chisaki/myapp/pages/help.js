@@ -13,7 +13,7 @@ export default function Terms() {
           src="/apps_pic/suggestion.png"
           width="130px"
           height="130px"
-          h3="Reach Out For Help"
+          h3="Reach For Help"
           content=""
           display="none"
           />
