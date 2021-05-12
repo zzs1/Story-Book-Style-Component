@@ -41,7 +41,7 @@ function ResultUI() {
       <h3 style={title()}>Your Result</h3>
       <img src="/apps_pic/img_result.png" style={picture()}/>
       </div>
-      <p style={subheading()}>Thank you for taking time for the test! Base on the answers from the test, Your mental condition toward the below three mental illnesses
+      <p style={subheading()}>Thank you for taking time for the test! Base on the answers from the tr mental condition toward the below three mental illnesses
       :</p>
       {/* <p style={indent()}>The severity of mental illness</p> */}
     </div>
