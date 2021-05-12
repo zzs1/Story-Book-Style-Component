@@ -8,7 +8,7 @@ const PsStyle = styled.p`
     color:#52A1C3;
     font-family: 'Saira Semi Condensed', sans-serif;
     text-align:left;
-    font-size:10px;
+    font-size:12px;
     width:80%;
     margin-left:20px;
     `;
@@ -17,7 +17,7 @@ const PsStyle2 = styled.p`
     color:#58ABAE;
     font-family: 'Saira Semi Condensed', sans-serif;
     text-align:left;
-    font-size:10px;
+    font-size:12px;
     width:80%;
     margin-left:20px;
     `;
@@ -39,13 +39,15 @@ const PsNoteUI = ({
 })=>{
     return (
         <Cont>
-            <PsStyle>
-                <Strong>Resources:</Strong><br></br>
-                 <A href="https://www.achn.net/about-access/whats-new/health-resources/3-most-common-mental-health-disorders-in-america/">https://www.achn.net/about-access/whats-new/health-resources/3-most-common-mental-health-disorders-in-america/</A></PsStyle>
           <PsStyle2>
-            Please feel free to contact us: 
+          For any inquiries please contact us at 
             <Strong> <A2 href="mailto: retheraph_app@gmail.com">  retheraph_app@gmail.com </A2></Strong>
           </PsStyle2>
+
+          <PsStyle>
+                <Strong>Resources:</Strong><br></br>
+                 <A href="https://www.achn.net/about-access/whats-new/health-resources/3-most-common-mental-health-disorders-in-america/">https://www.achn.net/about-access/whats-new/health-resources/3-most-common-mental-health-disorders-in-america/</A></PsStyle>
+
           </Cont>
         
       )
