@@ -20,10 +20,10 @@ export default function Intro() {
         content="Retheraphy comes from the word therapist. Our goal is to be your therapist that shows the potential illnesses you may have and improve your mental health."
         />
         <J_Content 
-        content="Mental health is a common issue all over the world. We may easily ignore our mental health conditions because of our busy lifestyle."
+        content="Mental health is a common issue all over the world. People may easily ignore their mental health status because of their busy work life."
         />
         <J_Content 
-        content="Our small-scale test helps you to check your mental health condition. We analyze and evaluate your answers from the test you take and show your percentages of having the top 3 mental illnesses."
+        content="In Retheraphy, the small scale test help user to check their mental condition by analysis test answer and evaluate the possible chance of suffering from top 3 mental illnesses ."
         />
         <div className={styles.psnotebox}>
         <PsNoteUI />

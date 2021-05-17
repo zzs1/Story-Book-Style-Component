@@ -13,16 +13,16 @@ export default function Test() {
     <div className={styles.base}>
      <TopBar />
      <J_Head
-    title="Get suggestions"
-    subhead="See suggestions for treating the mental illnesses"
+    title="Take the test"
+    subhead="Complete the 6 questions test"
     />
     <div className={styles.containerbox}>
     <EnlargedUI 
-    src="apps_pic/suggestion.png" 
+    src="apps_pic/test.jpg" 
     title="" 
     subtext=""
     routeTo=""
-    Pstyle= {<div><span className={styles.span}>We provide suggestions that help to improve your mental health.</span> Our suggestions are based on the study and research. <span className={styles.span}>To check our suggestions, please click SEE SUGGESTION Button.</span></div>}
+    Pstyle= {<div>There are a total of 6 questions in the app to scale your mental illness level. Based on your condition today, please select the closest answer from the choices. You can always review your answers to change.</div>}
     />
     </div>
     <div className={styles.buttonBox}>
@@ -32,11 +32,10 @@ export default function Test() {
     routeTo="/how_it_works"
     bgcolor="#52A1C3"
     />
-    {/*needs to change the routeTo URL to jump to suggestion page */}
      <Button 
-    title="SEE SUGGESTION"
+    title="TAKE TEST"
     subtext=""
-    routeTo="suggestions"
+    routeTo="/terms"
     bgcolor="#52A1C3"
     />
     </div>

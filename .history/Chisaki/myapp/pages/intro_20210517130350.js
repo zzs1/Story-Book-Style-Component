@@ -23,7 +23,7 @@ export default function Intro() {
         content="Mental health is a common issue all over the world. We may easily ignore our mental health conditions because of our busy lifestyle."
         />
         <J_Content 
-        content="Our small-scale test helps you to check your mental health condition. We analyze and evaluate your answers from the test you take and show your percentages of having the top 3 mental illnesses."
+        content="In Retheraphy, the small scale test helps you to check your mental condition by analysis test answer and evaluate the possible chance of suffering from top 3 mental illnesses ."
         />
         <div className={styles.psnotebox}>
         <PsNoteUI />

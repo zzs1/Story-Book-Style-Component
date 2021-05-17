@@ -22,7 +22,7 @@ export default function Test() {
     title="" 
     subtext=""
     routeTo=""
-    Pstyle= {<div><span className={styles.span}>We provide suggestions that help to improve your mental health.</span> Our suggestions are based on the study and research. <span className={styles.span}>To check our suggestions, please click SEE SUGGESTION Button.</span></div>}
+    Pstyle= {<div>We provide suggestions that help to improve your mental health. Our suggestions are based on the study and research. To check our suggestions, please click SEE SUGGESTION Button.</div>}
     />
     </div>
     <div className={styles.buttonBox}>

@@ -106,7 +106,7 @@ const HomeUI = ({
     <C2></C2>
     <C3></C3>
     <Logo src="/apps_pic/app_logo.png"></Logo>
-    <Text>Check your mental condition Take care of your mental health Provide helpful information</Text>
+    <Text>Check your mental condition  Take  care of your mental health Provide helpful information</Text>
     <div className={styles.HomeBox}>
       <ButtonUI 
       title="Start"

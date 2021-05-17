@@ -91,6 +91,7 @@ position:absolute;
 width:60%;
 top:230px;
 left:80px;
+align-items:left
 `;
 
 const HomeUI = ({

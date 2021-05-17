@@ -13,16 +13,16 @@ export default function Test() {
     <div className={styles.base}>
      <TopBar />
      <J_Head
-    title="Get suggestions"
-    subhead="See suggestions for treating the mental illnesses"
+    title="Understand mental illness"
+    subhead="Learn about the physical and mental symptoms"
     />
     <div className={styles.containerbox}>
     <EnlargedUI 
-    src="apps_pic/suggestion.png" 
+    src="apps_pic/img_learn.png" 
     title="" 
     subtext=""
     routeTo=""
-    Pstyle= {<div><span className={styles.span}>We provide suggestions that help to improve your mental health.</span> Our suggestions are based on the study and research. <span className={styles.span}>To check our suggestions, please click SEE SUGGESTION Button.</span></div>}
+    Pstyle= {<div>Mental health and physical health are fundamentally linked. People living with a serious mental illness are at higher risk of experiencing a wide range of chronic physical conditions. To learn more, please clicking LEARN MORE Button.</div>}
     />
     </div>
     <div className={styles.buttonBox}>
@@ -32,11 +32,11 @@ export default function Test() {
     routeTo="/how_it_works"
     bgcolor="#52A1C3"
     />
-    {/*needs to change the routeTo URL to jump to suggestion page */}
+ 
      <Button 
-    title="SEE SUGGESTION"
+    title="LEARN MORE"
     subtext=""
-    routeTo="suggestions"
+    routeTo="/learn_more"
     bgcolor="#52A1C3"
     />
     </div>
