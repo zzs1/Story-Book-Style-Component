@@ -13,8 +13,8 @@ const BreathAnimation = keyframes`
 
 const CardCont = styled.div`
 background:#82DED9;
-width:377px;
-height:667px;
+width:100vw;
+height:100vh;
 text-align:center;
 justify-content:center;
 
@@ -22,7 +22,8 @@ justify-content:center;
   
 const Cont = styled.div`
 background:#82DED9;
-width:377px;
+width:100%;
+height:100%;
 text-align:center;
 font-family:Roboto, sans-serif;
 justify-content:center;
@@ -36,8 +37,8 @@ justify-content:center;
 align-items:center;
 background:#FFFFFF;
 border-radius: 50%;
-width: 377px;
-height: 377px;
+width: 100%;
+height: 100%;
 position:absolute;
 top:80px;
 animation-name: ${BreathAnimation};
@@ -51,8 +52,8 @@ justify-content:center;
 align-items:center;
 background:#FFFFFF;
 border-radius: 50%;
-width: 340px;
-height: 340px;
+width: 95%;
+height: 95%;
 position:absolute;
 left:20px;
 top:100px;
@@ -67,8 +68,8 @@ justify-content:center;
 align-items:center;
 background:#FFFFFF;
 border-radius: 50%;
-width: 303px;
-height: 303px;
+width: 90%;
+height: 90%;
 position:absolute;
 left:40px;
 top:120px;
@@ -79,18 +80,16 @@ animation-iteration-count: infinite;
 `;
 
 const Logo = styled.img`
-position:absolute;
-top:200px;
-left:115px;
+text-align:center;
+justify-content:center;
 width:150px;
 `;
 
 const Text = styled.p`
 color:#FFFFFF;
-position:absolute;
-width:60%;
-top:230px;
-left:80px;
+text-align:center;
+justify-content:center;
+
 `;
 
 const HomeUI = ({
@@ -105,8 +104,10 @@ ps="Check your mental condition  Take  care your mental health Privode help info
     <C1></C1>
     <C2></C2>
     <C3></C3>
-    <Logo src="/apps_pic/app_logo.png"></Logo>
+    <div className={styles.HomeText}>
+    <Logo src="/apps_pic/logo.png"></Logo>
     <Text>{ps}</Text>
+    </div>
     <div className={styles.HomeBox}>
       <ButtonUI 
       title="Start"

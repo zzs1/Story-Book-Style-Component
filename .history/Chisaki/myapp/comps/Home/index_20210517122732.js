@@ -105,7 +105,7 @@ ps="Check your mental condition  Take  care your mental health Privode help info
     <C1></C1>
     <C2></C2>
     <C3></C3>
-    <Logo src="/apps_pic/app_logo.png"></Logo>
+    <Logo src="/apps_pic/logo.png"></Logo>
     <Text>{ps}</Text>
     <div className={styles.HomeBox}>
       <ButtonUI 
