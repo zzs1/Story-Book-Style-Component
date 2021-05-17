@@ -75,7 +75,7 @@ const MenuUI= ({
 
     var width = 0, height = 0, visibility = "hidden";
     if(open){
-      width="377;
+      width=377;
       height=476;
       visibility="visible";
     }
