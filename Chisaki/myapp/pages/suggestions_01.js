@@ -15,8 +15,8 @@ export default function Suggestion_01() {
             title="Suggestion"/>
             <SuggestionInfo 
             src="../../suggestions/01_01.png"
-            title="Eat and drink to optimize your health"
-            content={<div><p>Eating healthy is not only good for your physical health, but also for your mental health. some people release their stress by eating junk foods, taking caffeine, or drinking alcohol, but it is not a good way to release your stress in the long run. <span className={styles.span}>Consider making healthy eating and drinking habits.</span></p></div>}
+            title="Dieting to optimize your health"
+            content={<div><p>Having a balanced eating habit is suitable for your physical health and your mental health. Mentally disturbed persons often release their stress by consuming junk foods, taking caffeine, or drinking alcohol, but this is not the proper way of easing your mental state. <span className={styles.span}>Maintain a healthy diet it’s vital to your mental health as well as your physical health.</span></p></div>}
             />
             <div className={styles.buttonBox}>
             <ButtonUI
@@ -28,4 +28,4 @@ export default function Suggestion_01() {
           </div>
           </div>
     )
-  }
+  } 
