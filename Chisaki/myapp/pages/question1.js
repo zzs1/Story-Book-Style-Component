@@ -57,7 +57,7 @@ export default function Question1() {
     <div className={styles.container}>
       <QuestionUI 
       heading="Question 1"
-      content="Have you had difficulty focusing or thinking clearly about anything other than what you’re worried about?"
+      content="How often do you find yourself had a hard time focusing or thinking clearly?"
       />
       <br></br>
       <div className={styles.answerbox}>
