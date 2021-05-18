@@ -24,26 +24,19 @@ export default function Terms() {
         <div className={styles.helpphone}>
         +Kids Helpline 1800 55 1800 (24 / 7)<br/>
         +Lifeline 13 11 14<br/>
-        </div></div>}
+        +eheadspace 1800 650 890</div></div>}
         />
         <HelpBoxUI 
         number="2"
-        title="The Canada Suicide Prevention Service"
-        content={<div>They can help you to understand your thoughts and feelings and connect you with local support resources.
-          <div className={styles.helpphone}>
-            Website: <a href="https://www.crisisservicescanada.ca/en/">https://www.crisisservicescanada.ca/en/</a><br/>
-            Call:(+1) 833 456 4566<br/>
-            Text: 45645
-          </div>
-        </div>}
-          />
+        title="Head to Headspace"
+        content="Headspace centres offer a drop-in service. Call them beforehand to check.
+        You can also schedule an appointment by calling or emailing them. "/>
         <HelpBoxUI 
         number="3"
         title="Connect with ReachOut legends"
-        content={<div>Regardless of where you are on your journey, you can always find additional support, advice or just some willing listeners on the ReachOut forums.<br/>
+        content={<div>Regardless of where you are on your journey, you can always find additional support, advice or just some willing listeners on the ReachOut forums.
           <div className={styles.helpphone}>
-            Website: <a href="https://reachout247.ca/">https://reachout247.ca/</a><br/>
-            Call: 519-433-2023 / 1-866-933-2023
+            website: 
           </div>
         </div>}
         />

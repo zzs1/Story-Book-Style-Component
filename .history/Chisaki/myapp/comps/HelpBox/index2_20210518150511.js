@@ -7,7 +7,6 @@ const HelpBox = styled.div`
     color:#52A1C3;
     text-align:left;
     width: 377px;
-    font-family:Roboto, sans-serif;
 `;
 
 const Header =styled.div`
@@ -18,28 +17,26 @@ const Header =styled.div`
 
 const Number = styled.strong`
     border-radius: 50%;
-    width:23px;
-    height:23px;
+    width:30px;
+    height: 30px;
     background-color:#CDF0EE;
     color:#FFFFFF;
     text-align: center;
-    font-family:Roboto, sans-serif;
+    font-family:Roboto sans-serif;
 `;
 
 const Title = styled.h3`
   margin-left:20px;
   margin-top:0;
-  margin-bottom:0;
-  font-family:Roboto, sans-serif;
+  font-family:Roboto sans-serif;
 `;
-const Content =styled.div`
+const Content =styled.p`
     width:80%;
     margin-left:65px;
     font-size: 16px;
-    margin-top:10px;
-    margin-bottom:10px;
+    margin-top:0px;
     line-height:20px;
-    font-family:Roboto, sans-serif;
+    fontfamily:Roboto sans-serif;
 `;
 
 const HelpBoxUI = ({

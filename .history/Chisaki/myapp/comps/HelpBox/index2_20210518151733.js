@@ -18,7 +18,7 @@ const Header =styled.div`
 
 const Number = styled.strong`
     border-radius: 50%;
-    width:23px;
+    width:20px;
     height:23px;
     background-color:#CDF0EE;
     color:#FFFFFF;

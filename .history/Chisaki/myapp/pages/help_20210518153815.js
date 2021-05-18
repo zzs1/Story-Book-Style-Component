@@ -29,7 +29,7 @@ export default function Terms() {
         <HelpBoxUI 
         number="2"
         title="The Canada Suicide Prevention Service"
-        content={<div>They can help you to understand your thoughts and feelings and connect you with local support resources.
+        content={<div>They offer a safe and confidential place to talk or text in your way. They can help you to understand your thoughts and feelings and connect you with local support resources. You can share your difficult moments. 
           <div className={styles.helpphone}>
             Website: <a href="https://www.crisisservicescanada.ca/en/">https://www.crisisservicescanada.ca/en/</a><br/>
             Call:(+1) 833 456 4566<br/>

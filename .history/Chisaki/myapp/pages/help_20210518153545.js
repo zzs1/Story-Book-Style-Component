@@ -24,16 +24,14 @@ export default function Terms() {
         <div className={styles.helpphone}>
         +Kids Helpline 1800 55 1800 (24 / 7)<br/>
         +Lifeline 13 11 14<br/>
-        </div></div>}
+        +headspace 1800 650 890</div></div>}
         />
         <HelpBoxUI 
         number="2"
         title="The Canada Suicide Prevention Service"
-        content={<div>They can help you to understand your thoughts and feelings and connect you with local support resources.
+        content={<div>They offer a safe and confidential place to talk or text in your way. They can help you to understand your thoughts and feelings and connect you with local support resources. You can share your difficult moments. 
           <div className={styles.helpphone}>
-            Website: <a href="https://www.crisisservicescanada.ca/en/">https://www.crisisservicescanada.ca/en/</a><br/>
-            Call:(+1) 833 456 4566<br/>
-            Text: 45645
+            Website:<a href=""
           </div>
         </div>}
           />
