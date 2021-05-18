@@ -14,7 +14,7 @@ export default function Suggestion_07() {
             <SuggestionInfo 
             src="../../suggestions/07.png"
             title="Managing and controlling your priorities"
-            content={<div><p>You may reduce the impact of your mental illness by managing time and energy. Cut back on obligations when necessary and set reasonable goals. <span className={styles.span}>Give yourself permission to do less when symptoms are worse. </span>You may find it helpful to make a list of daily tasks or use a planner to structure your time and stay organized.</p></div>}
+            content={<div><p>You may reduce the impact of your mental illness by managing time and energy. Cut back on obligations when necessary and set reasonable goals. <span className={styles.span}>Permit yourself to do less when symptoms are worse. </span>You may find it helpful to make a list of daily tasks or use a planner to structure your time and stay organized.</p></div>}
             />
             <div className={styles.buttonBox}>
           <ButtonUI
