@@ -15,8 +15,8 @@ export default function Suggestion_06() {
             title="Suggestion"/>
             <SuggestionInfo 
             src="../../suggestions/06.png"
-            title="Talk how you feel to someone"
-            content={<div><p>By talking your concerns to someone else, you can organize your feeling. Moreover, someone may give you some advice for your concerns. <span className={styles.span}>It is always a good idea to talk your feelings to people you trust. </span>If your concerns are really personal ones, you can also reach out to some professional consultants.</p></div>}
+            title="Speak out your feeling to someone"
+            content={<div><p>By talking your concerns to someone else, you could organize your feeling. Moreover, the person you communicate with may give you some advice to resolve your problems. <span className={styles.span}>It is always a good idea to speak out your senses to the people you trust. </span>If your concerns are private, you can also reach out to professional consultants.</p></div>}
             />
             <div className={styles.buttonBox}>
           <ButtonUI
