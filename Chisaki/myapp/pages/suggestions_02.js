@@ -17,7 +17,7 @@ export default function Suggestion_02() {
             <SuggestionInfo 
             src="../../suggestions/02.png"
             title="Exercise regularly"
-            content={<div><p><span className={styles.span}>Try to do some exercises because we can ease our stress by moving our body.</span>You can try <span className={styles.span}>non-competitive exercises</span>, such as aerobics, weight training, and yoga. According to the study, aerobic exercise can release endorphins which are natural substances that make your feeling better and keep you being positive.</p></div>}
+            content={<div><p><span className={styles.span}>Try to do some exercises because they diverted your thoughts and relieve your stress.</span>You can try <span className={styles.span}>non-competitive activities</span>, such as aerobics, weight training, and yoga. According to the study, aerobic exercise can release endorphins: natural substances that make your feeling better and keep you being positive.</p></div>}
             />
             <div className={styles.buttonBox}>
           <ButtonUI
