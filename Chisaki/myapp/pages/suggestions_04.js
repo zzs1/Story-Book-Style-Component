@@ -17,7 +17,7 @@ export default function Suggestion_04() {
             <SuggestionInfo
             src="../../suggestions/04_01.png"
             title="Practice relaxation techniques"
-            content={<div><p><span className={styles.span}>Finding your relaxation way is really important to relieve your stress. </span>It can be anything that you would like to do, such as taking a long bath, deep breathing, doing mindfulness meditation, or daydreaming.</p></div>}
+            content={<div><p><span className={styles.span}>Find a way of relaxation is crucial for you to relieve your stress.</span> It can be anything that you would like to do, such as taking a long bath, deep breathing, doing mindfulness meditation, or even daydreaming.</p></div>}
             />
             <div className={styles.buttonBox}>
           <ButtonUI
