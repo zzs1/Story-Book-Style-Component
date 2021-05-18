@@ -17,7 +17,7 @@ export default function Suggestion_03() {
             <SuggestionInfo 
             src="../../suggestions/03.png"
             title="Stop smoking"
-            content={<div><p>Did you know smoking is not only bad for your physical health, but also mental health? <span className={styles.span}>Smoking increases your anxiety and tension.</span> In fact, if you try to stop smoking and get rid of the nicotine, you would feel irritable and anxious due to the signals from certain chemicals in the brain.</p></div>}
+            content={<div><p>Did you know smoking is not only degrading your physical body but also your mental status? Unlike most everyone would believe, <span className={styles.span}>Smoking amplifies your anxiety and tension.</span> If you get rid of the nicotine by stop smoking, The neural of your brain will send a signal by generating chemical substances that would make you feel irritated and tense.</p></div>}
             />
           <div className={styles.buttonBox}>
           <ButtonUI
