@@ -16,7 +16,7 @@ export default function Suggestion_05() {
             <SuggestionInfo
             src="../../suggestions/05_01.png"
             title="Set realistic goals and expectations"
-            content={<div><p>By setting realistic goals and achieving small goals step by step, <span className={styles.span}>you can get more and more confident on yourself.</span> For example, if you are trying to go on diet, you can start by walking 1 or 2 bus stops distance once or twice a week. When you making a plan, <span className={styles.span}>it is a good idea to consider your plan for the long run.</span></p></div>}
+            content={<div><p>By setting realistic goals and achieving small goals step by step, <span className={styles.span}>you would be more confident in yourself. </span> For example, if you are trying to go on diet, you can start by walking 1 or 2 bus stops distance once or twice a week. When you making a plan, <span className={styles.span}>be sure to look into the long runs</span></p></div>}
             />
               <div className={styles.buttonBox}>
           <ButtonUI
