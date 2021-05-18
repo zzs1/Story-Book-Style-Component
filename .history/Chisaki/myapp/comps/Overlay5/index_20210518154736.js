@@ -17,7 +17,7 @@ visibility:${props=>props.visivility};
 
 `;
 
-const Text = styled.div`
+const Text = styled.p`
 width:90%;
 position:relative;
 text-align:left;

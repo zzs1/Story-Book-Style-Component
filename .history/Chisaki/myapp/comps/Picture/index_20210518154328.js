@@ -16,11 +16,11 @@ display:flex;
 flex-direction:row;
 `;
 const Inst = styled.p`
+font-family: Saira SemiCondensed;
 font-size: 12px;
 color: #52A1C3;
 margin:0;
 margin-top:5px;
-font-family:Roboto, sans-serif;
 `; 
 const Icon = styled.img`
 height:30px;

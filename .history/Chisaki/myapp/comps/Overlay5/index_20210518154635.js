@@ -6,7 +6,7 @@ position:absolute;
 top:435px;
 left:180px;
 width:175px;
-height:70px;
+height:65px;
 text-align:center;
 justify-content:center;
 align-items:center;
@@ -17,7 +17,7 @@ visibility:${props=>props.visivility};
 
 `;
 
-const Text = styled.div`
+const Text = styled.p`
 width:90%;
 position:relative;
 text-align:left;

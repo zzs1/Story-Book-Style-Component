@@ -3,10 +3,10 @@ import React from 'react'
 
 const Cont = styled.div`
 position:absolute;
-top:435px;
+top:350px;
 left:180px;
 width:175px;
-height:70px;
+height:px;
 text-align:center;
 justify-content:center;
 align-items:center;
@@ -17,8 +17,8 @@ visibility:${props=>props.visivility};
 
 `;
 
-const Text = styled.div`
-width:90%;
+const Text = styled.p`
+width:70%;
 position:relative;
 text-align:left;
 color:#5C5D5D;

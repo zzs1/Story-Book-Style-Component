@@ -3,10 +3,10 @@ import React from 'react'
 
 const Cont = styled.div`
 position:absolute;
-top:435px;
+top:150px;
 left:180px;
 width:175px;
-height:70px;
+height:35px;
 text-align:center;
 justify-content:center;
 align-items:center;
@@ -14,10 +14,9 @@ border-radius:10px;
 border: 2px solid #82DED9;
 background-color:#F1EFEF;
 visibility:${props=>props.visivility};
-
 `;
 
-const Text = styled.div`
+const Text = styled.p`
 width:90%;
 position:relative;
 text-align:left;
@@ -27,7 +26,7 @@ font-size:12px;
 font-family:Roboto, sans-serif;
 `;
 
-const Overlay2 = ({
+const Overlay = ({
 visivility="hidden",
 content="abc",
 onClick=()=>{}  
@@ -39,4 +38,4 @@ onClick=()=>{}
   }
   
 
-export default Overlay2;
+export default Overlay;

@@ -132,6 +132,7 @@ export default function Diagram() {
           visivility={buttonstate6 ? "visible" : "hidden"}  
           content={<div><strong className={styles.highlight}>Tensed Muscle:</strong> Stress makes muscle tense up, and chronic stress leads to tension-related headache and backaches</div>}
           />
+      
       <div className={styles.buttonBox}>
        <ButtonUI 
        title="BACK"

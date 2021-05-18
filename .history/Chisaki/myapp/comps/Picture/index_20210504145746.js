@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Cont = styled.div`
 width:90%;
-height: 450px;
+height: 420px;
 border: 2px solid #82DED9;
 text-align: left;
 display: block;
@@ -16,11 +16,11 @@ display:flex;
 flex-direction:row;
 `;
 const Inst = styled.p`
+font-family: Saira SemiCondensed;
 font-size: 12px;
 color: #52A1C3;
 margin:0;
 margin-top:5px;
-font-family:Roboto, sans-serif;
 `; 
 const Icon = styled.img`
 height:30px;
