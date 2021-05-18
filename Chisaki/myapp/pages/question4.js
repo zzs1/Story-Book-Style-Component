@@ -58,7 +58,7 @@ export default function Question4() {
     <div className={styles.container}>
       <QuestionUI 
       heading="Question 4"
-      content="Have you felt any interest or pleasure in activities in the past 2 weeks?"
+      content="Have you felt any positive mood in the activities you have gone through in the past two weeks?"
       />
       <br></br>
       <div className={styles.answerbox}>
