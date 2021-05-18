@@ -59,7 +59,7 @@ export default function Question3() {
       <div className={styles.container}>
       <QuestionUI 
       heading="Question 3"
-      content="How often have you experienced feelings of low, depression, or hopelessness?"
+      content="How often do you have feelings of powerlessness, depression, or hopelessness?"
       />
       <br></br>
       <div className={styles.answerbox}>
