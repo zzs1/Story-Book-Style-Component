@@ -19,7 +19,6 @@ const Subhead =styled.div`
   margin-top:5px;
   margin-left:20px;
   font-size:16px;
-  font-family:Roboto, sans-serif;
 `;
 
 const J_Head =({

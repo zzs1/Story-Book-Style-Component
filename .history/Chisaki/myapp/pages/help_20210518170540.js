@@ -12,7 +12,7 @@ export default function Terms() {
           <ResultUI 
           src="/apps_pic/suggestion.png"
           width="130px"
-          height="120px"
+          height="110px"
           h3="Reach For Help"
           content=""
           display="none"

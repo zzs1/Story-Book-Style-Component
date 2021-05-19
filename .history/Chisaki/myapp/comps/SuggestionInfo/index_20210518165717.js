@@ -35,7 +35,6 @@ top:70px
 `;
 const Detail = styled.div`
 font-size: 16px;
-font-family:Roboto, sans-serif;
 line-height: 25px;
 text-align: center;
 margin-left:10px;

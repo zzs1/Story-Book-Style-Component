@@ -24,7 +24,7 @@ position:absolute;
 top:150px;
 `;
 const Detail = styled.div`
-font-size: 16px;
+font-size: 15px;
 font-family:Roboto, sans-serif;
 line-height: 25px;
 text-align: center;
@@ -47,7 +47,7 @@ top:60px;
 `;
 
 const Verb = styled.p`
-font-size: 16px;
+font-size: 15px;
 font-family:Roboto, sans-serif;
 line-height: 20px;
 text-align: center;
@@ -60,7 +60,7 @@ color: #52A1C3;
 `;
 
 const Last = styled.p`
-font-size: 16px;
+font-size: 15px;
 font-family:Roboto, sans-serif;
 text-align: center;
 color: #52A1C3;

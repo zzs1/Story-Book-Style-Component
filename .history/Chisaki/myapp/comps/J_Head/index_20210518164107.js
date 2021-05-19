@@ -10,16 +10,16 @@ color: #52A1C3;
 text-align: left;
 margin-bottom:0;
 margin-left:20px;
-font-family:Roboto, sans-serif;
+  
 `;
 
 const Subhead =styled.div`
   color: #52A1C3;
+  font-family: 'Saira Semi Condensed', sans-serif;
   margin-bottom:20px;
   margin-top:5px;
   margin-left:20px;
   font-size:16px;
-  font-family:Roboto, sans-serif;
 `;
 
 const J_Head =({

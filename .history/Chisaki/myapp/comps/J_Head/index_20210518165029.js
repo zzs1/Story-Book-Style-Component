@@ -9,7 +9,7 @@ const Title = styled.h2`
 color: #52A1C3;
 text-align: left;
 margin-bottom:0;
-margin-left:20px;
+margin-left:16px;
 font-family:Roboto, sans-serif;
 `;
 

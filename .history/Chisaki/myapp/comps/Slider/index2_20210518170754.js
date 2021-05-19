@@ -35,7 +35,7 @@ margin-bottom:5px;
 margin-top:5px;
 font-size:13px;
 color:#78CDC8;
-font-family:Roboto, sans-serif;
+font-family:"Saira Semi Condensed', sans-serif";
 `;
 
 const Highlight = styled.strong`
@@ -51,13 +51,11 @@ font-family:Roboto, sans-serif;
 
 const Ps2 = styled.p`
 margin:0px;
-font-family:Roboto, sans-serif;
 width:80%;
 justify-content:center;
 font-size:12px;
 color:#52A1C3;
 margin-left:40px
-
 `;
 const SliderUI = ({
 your_level="Anxiety disorder",

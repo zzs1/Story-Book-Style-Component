@@ -108,18 +108,17 @@ flex-wrap:wrap;
 
 
 const WidgetH = styled.p`
-font-size: 12px;
+font-size: 13px;
 margin:0;
 text-align: center;
 color:${props=>props.cr};
 font-family:Roboto, sans-serif;
 `;
 const WidgetH2 = styled.p`
-font-size: 12px;
+font-size: 13px;
 margin:0;
 text-align: center;
 color:${props=>props.cl};
-font-family:Roboto, sans-serif;
 `;
 const Widgetcontent = styled.div`
 margin:2px;

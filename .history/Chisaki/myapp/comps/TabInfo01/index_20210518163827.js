@@ -25,7 +25,6 @@ top:150px;
 `;
 const Detail = styled.div`
 font-size: 16px;
-font-family:Roboto, sans-serif;
 line-height: 25px;
 text-align: center;
 margin-left:10px;
@@ -37,8 +36,7 @@ top:70px;
 `;
 
 const Line = styled.h3`
-font-size: 20px;
-font-family:Roboto, sans-serif;
+font-size: 18px;
 color: #52A1C3;
 text-align: center;
 justify-content:center;
@@ -47,8 +45,7 @@ top:60px;
 `;
 
 const Verb = styled.p`
-font-size: 16px;
-font-family:Roboto, sans-serif;
+font-size: 13px;
 line-height: 20px;
 text-align: center;
 color: #52A1C3;
@@ -60,8 +57,7 @@ color: #52A1C3;
 `;
 
 const Last = styled.p`
-font-size: 16px;
-font-family:Roboto, sans-serif;
+font-size: 13px;
 text-align: center;
 color: #52A1C3;
 position:relative;
@@ -71,7 +67,7 @@ top:25px;
 const Tit = styled.h3`
 margin:0;
 font-family:Roboto, sans-serif;
-font-size: 20px;
+font-size: 18px;
 text-align: center;
 color: #52A1C3;
 justify-content:center;

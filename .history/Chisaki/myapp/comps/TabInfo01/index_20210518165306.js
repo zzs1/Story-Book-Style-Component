@@ -47,7 +47,7 @@ top:60px;
 `;
 
 const Verb = styled.p`
-font-size: 16px;
+font-size: 13px;
 font-family:Roboto, sans-serif;
 line-height: 20px;
 text-align: center;

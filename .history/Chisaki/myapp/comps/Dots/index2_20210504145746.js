@@ -21,7 +21,7 @@ background:${props=>props.bgcolor};
 `;
 const Number = styled.p`
 color:#FFFFFF;
-font-family:Roboto, sans-serif;
+font-family:'Roboto, sans-serif';
 text-align:center;
 font-size:12px;
 justify-content:center;

@@ -4,22 +4,24 @@ import styled from 'styled-components';
 
 const Cont = styled.div`
 width:377px;
+font-family:Roboto, sans-serif;
 `;
 const Title = styled.h2`
 color: #52A1C3;
+font-family:Roboto, sans-serif;
 text-align: left;
 margin-bottom:0;
 margin-left:20px;
-font-family:Roboto, sans-serif;
+  
 `;
 
 const Subhead =styled.div`
   color: #52A1C3;
+  font-family:Roboto, sans-serif;
   margin-bottom:20px;
   margin-top:5px;
   margin-left:20px;
   font-size:16px;
-  font-family:Roboto, sans-serif;
 `;
 
 const J_Head =({

@@ -51,7 +51,6 @@ font-family:Roboto, sans-serif;
 
 const Ps2 = styled.p`
 margin:0px;
-font-family:Roboto, sans-serif;
 width:80%;
 justify-content:center;
 font-size:12px;

@@ -13,7 +13,7 @@ font-size:30px;
 line-height:47px;
 color:#52A1C3;
 margin:0;
-margin-top:35px;
+margin-top:20px;
 margin-left:20px;
 `;
 const Sub = styled.p`

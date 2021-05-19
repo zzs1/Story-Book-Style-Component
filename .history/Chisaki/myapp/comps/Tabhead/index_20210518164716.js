@@ -16,13 +16,13 @@ font-family:Roboto, sans-serif;
 const Second = styled.h2`
 font-style: normal;
 font-weight: bold;
-font-size: 20px;
+font-size: 25px;
 text-align: center;
 color: #52A1C3;
 margin:0;
 margin-top:5px;
 margin-left:20px;
-font-family:Roboto, sans-serif;
+font-family: Saira SemiCondensed;
 `;
 
 const Fix = styled.div`

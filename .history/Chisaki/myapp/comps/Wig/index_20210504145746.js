@@ -111,14 +111,12 @@ flex-wrap:wrap;
 
 const WidgetH = styled.span`
 font-size: 13px;
-font-family:Roboto, sans-serif;
 margin:10px;
 text-align: center;
 color:${props=>props.cr};
 `;
 const WidgetH2 = styled.span`
 font-size: 13px;
-font-family:Roboto, sans-serif;
 margin:10px;
 text-align: center;
 color:${props=>props.cl};
