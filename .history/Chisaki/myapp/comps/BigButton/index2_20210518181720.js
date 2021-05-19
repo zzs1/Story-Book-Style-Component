@@ -21,7 +21,7 @@ margin:0px;
 margin-bottom:5px;
 margin-top:5px;
 color:#FFFFFF;
-letter-spacing:0.6px;
+letter-spacing:0.8px;
 `;
 
 

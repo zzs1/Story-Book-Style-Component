@@ -10,30 +10,29 @@ import DotsUI from '../comps/Dots/index2'
 import NumberUI from '../comps/Number/index2'
 
 
+var answers2 = null;
 
-var answers5 = null;
-
-export default function Question5() {
+export default function Question2() {
 
   const [buttonstate1, setButtonState1] = useState(0);  
     
   const HandleClickButtonColor1 = () =>{
       setButtonState1(1);
-      sessionStorage.setItem("question5", 50)
+      sessionStorage.setItem("question2", 50)
      
     }
 
   
   const HandleClickButtonColor2= () =>{
     setButtonState1(2);
-    sessionStorage.setItem("question5", 35)
+    sessionStorage.setItem("question2", 35)
    
     }
   
   
   const HandleClickButtonColor3= () =>{
         setButtonState1(3);
-        sessionStorage.setItem("question5",20)
+        sessionStorage.setItem("question2",20)
        
       }
 
@@ -41,24 +40,25 @@ export default function Question5() {
 
   const HandleClickButtonColor4= () =>{
         setButtonState1(4);
-        sessionStorage.setItem("question5",5)
+        sessionStorage.setItem("question2",5)
    
       }
 
   const HandleEnd = () =>{
-        console.log(answers5);
-        sessionStorage.setItem("question5", answers4)
+        console.log(answers2);
+        sessionStorage.setItem("question2", answers2)
         router.push("/result")
       }
+
   const router = useRouter();
   return (
   <div className={styles.base}>
 
-       {/*Question Card 5 (text changeable)*/}
-    <div className={styles.container}>
+   {/*Question Card 2 (text changeable)*/}
+   <div className={styles.container}>
       <QuestionUI 
-      heading="Question 5"
-      content="Have you ever spent a lot of money on gambling or quarreled with your boss without thinking of the ahead/consequences?"
+      heading="Question 2"
+      content="Have you ever experienced any parts of your body, such as hands and legs trembling or muscles twitching unnaturally?"
       />
       <br></br>
       <div className={styles.answerbox}>
@@ -66,7 +66,7 @@ export default function Question5() {
       heading="Always"
       onClick={() =>{
         HandleClickButtonColor1();
-       
+  
       }} 
       bgcolor={buttonstate1===1 ? '#52A1C3' : '#DADADA'}
       />
@@ -74,7 +74,7 @@ export default function Question5() {
        heading="Often"
        onClick={()=>{
         HandleClickButtonColor2();
-        
+       
       }} 
       bgcolor={buttonstate1===2 ? '#52A1C3' : '#DADADA'}
       />
@@ -104,6 +104,7 @@ export default function Question5() {
       <DotsUI 
       title="2"
       routeTo='/question2'
+      bgcolor='#52A1C3'
       />
       <DotsUI 
       title="3"
@@ -116,7 +117,6 @@ export default function Question5() {
       <DotsUI 
       title="5"
       routeTo='/question5'
-      bgcolor='#52A1C3'
       />
       <DotsUI 
       title="6"
@@ -126,25 +126,24 @@ export default function Question5() {
       <div className={styles.buttonBox}>
       <Button 
       title="BACK"
-      subtext="Question4"
-      routeTo='/question4'
+      subtext="Question1"
+      routeTo="/question1"
       display="block"
       />
       <Button 
       title="NEXT"
-      subtext="Question6"
-      routeTo='/question6'
-      display="block"
+      subtext="Question3"
+      routeTo="/question3"
       onClick={HandleEnd}
       />
       </div>
       <div className={styles.number_container}>
       <NumberUI 
-      title="5/6"
+      title="2/6"
       />
       </div>
-    </div>
       </div>
+    </div>
 
     
 

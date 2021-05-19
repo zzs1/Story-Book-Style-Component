@@ -19,7 +19,7 @@ align-items:center;
 `;
   
 const Heading = styled.h4`
-letter-spacing:1px;
+letter-spacing:2px;
 justify-content:center;
 margin-bottom:5px;
 margin-top:5px;
@@ -41,7 +41,7 @@ subtext="Question2",
 routeTo='/question1',
 bgcolor="#82DED9",
 color="#FFFFFF",
-display="none"
+display=
 }) => {
   const router = useRouter();
   return <CardCont 

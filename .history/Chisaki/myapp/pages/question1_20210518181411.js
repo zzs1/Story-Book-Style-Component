@@ -10,30 +10,29 @@ import DotsUI from '../comps/Dots/index2'
 import NumberUI from '../comps/Number/index2'
 
 
+var answers1 = null;
 
-var answers5 = null;
-
-export default function Question5() {
-
+export default function Question1() {
+// answer buttons color change
   const [buttonstate1, setButtonState1] = useState(0);  
     
   const HandleClickButtonColor1 = () =>{
       setButtonState1(1);
-      sessionStorage.setItem("question5", 50)
+      sessionStorage.setItem("question1", 50)
      
     }
 
   
   const HandleClickButtonColor2= () =>{
     setButtonState1(2);
-    sessionStorage.setItem("question5", 35)
+    sessionStorage.setItem("question1", 35)
    
     }
   
   
   const HandleClickButtonColor3= () =>{
         setButtonState1(3);
-        sessionStorage.setItem("question5",20)
+        sessionStorage.setItem("question1",20)
        
       }
 
@@ -41,24 +40,24 @@ export default function Question5() {
 
   const HandleClickButtonColor4= () =>{
         setButtonState1(4);
-        sessionStorage.setItem("question5",5)
+        sessionStorage.setItem("question1",5)
    
       }
 
   const HandleEnd = () =>{
-        console.log(answers5);
-        sessionStorage.setItem("question5", answers4)
-        router.push("/result")
-      }
+    console.log(answers1);
+    sessionStorage.setItem("question1", answers1)
+    router.push("/result")
+  }
   const router = useRouter();
   return (
   <div className={styles.base}>
 
-       {/*Question Card 5 (text changeable)*/}
+  {/*Question Card 1 (text changeable)*/}
     <div className={styles.container}>
       <QuestionUI 
-      heading="Question 5"
-      content="Have you ever spent a lot of money on gambling or quarreled with your boss without thinking of the ahead/consequences?"
+      heading="Question 1"
+      content="Have you ever distracted to focus on something important because you are worried about something?"
       />
       <br></br>
       <div className={styles.answerbox}>
@@ -66,33 +65,38 @@ export default function Question5() {
       heading="Always"
       onClick={() =>{
         HandleClickButtonColor1();
-       
+        
       }} 
-      bgcolor={buttonstate1===1 ? '#52A1C3' : '#DADADA'}
+      bgcolor={buttonstate1 === 1 ? '#52A1C3' : '#DADADA'}
+  
       />
       <BigButton
        heading="Often"
        onClick={()=>{
         HandleClickButtonColor2();
-        
+     
       }} 
-      bgcolor={buttonstate1===2 ? '#52A1C3' : '#DADADA'}
+       bgcolor={buttonstate1 === 2 ? '#52A1C3' : '#DADADA'}
+      
+ 
       />
       <BigButton 
       heading="Occasionally"
       onClick={()=>{
         HandleClickButtonColor3();
-        
+  
       }} 
-      bgcolor={buttonstate1===3 ? '#52A1C3' : '#DADADA'}
+      bgcolor={buttonstate1 ===3 ? '#52A1C3' : '#DADADA'}
+     
       />
       <BigButton 
       heading="Not at all"
       onClick={()=>{
         HandleClickButtonColor4();
-        
+      
       }} 
-      bgcolor={buttonstate1===4 ? '#52A1C3' : '#DADADA'}
+      bgcolor={buttonstate1 ===4 ? '#52A1C3' : '#DADADA'}
+
       />
       </div>
       <br></br>
@@ -100,6 +104,7 @@ export default function Question5() {
       <DotsUI 
       title="1"
       routeTo='/question1'
+      bgcolor='#52A1C3'
       />
       <DotsUI 
       title="2"
@@ -116,35 +121,29 @@ export default function Question5() {
       <DotsUI 
       title="5"
       routeTo='/question5'
-      bgcolor='#52A1C3'
       />
       <DotsUI 
       title="6"
       routeTo='/question6'
       />
+      
       </div>
       <div className={styles.buttonBox}>
       <Button 
-      title="BACK"
-      subtext="Question4"
-      routeTo='/question4'
-      display="block"
-      />
-      <Button 
       title="NEXT"
-      subtext="Question6"
-      routeTo='/question6'
-      display="block"
+      subtext="Question2"
+      routeTo="/question2"
+      display:block
       onClick={HandleEnd}
       />
       </div>
       <div className={styles.number_container}>
       <NumberUI 
-      title="5/6"
+      title="1/6"
       />
       </div>
     </div>
-      </div>
+    </div>
 
     
 

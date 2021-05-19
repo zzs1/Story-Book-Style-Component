@@ -19,7 +19,7 @@ align-items:center;
 `;
   
 const Heading = styled.h4`
-letter-spacing:1px;
+letter-spacing:2px;
 justify-content:center;
 margin-bottom:5px;
 margin-top:5px;

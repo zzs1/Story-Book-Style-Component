@@ -134,7 +134,6 @@ export default function Question5() {
       title="NEXT"
       subtext="Question6"
       routeTo='/question6'
-      display="block"
       onClick={HandleEnd}
       />
       </div>

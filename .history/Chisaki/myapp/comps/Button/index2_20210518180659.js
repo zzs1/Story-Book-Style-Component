@@ -19,7 +19,7 @@ align-items:center;
 `;
   
 const Heading = styled.h4`
-letter-spacing:1px;
+margin:0px;
 justify-content:center;
 margin-bottom:5px;
 margin-top:5px;
@@ -32,7 +32,6 @@ justify-content:center;
 margin-bottom:5px;
 margin-top:5px;
 font-size:12px;
-display:${props=>props.display}
 `;
 
 const ButtonUI = ({
@@ -41,7 +40,7 @@ subtext="Question2",
 routeTo='/question1',
 bgcolor="#82DED9",
 color="#FFFFFF",
-display="none"
+
 }) => {
   const router = useRouter();
   return <CardCont 
@@ -51,9 +50,7 @@ display="none"
   className={styles.hoverbtn}
   >
     <Heading>{title}</Heading>
-<Ps
-display={display}
->{subtext}</Ps>
+<Ps>{subtext}</Ps>
   </CardCont>
 }
 
