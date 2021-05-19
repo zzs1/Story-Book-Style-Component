@@ -1,26 +1,54 @@
 import styles from '../../styles/Home.module.css'
+import React from 'react';
+import styled from 'styled-components';
 
-const PsStyle = () => ({
-    color: "#52A1C3",
-    fontfamily: 'Roboto, sans-serif',
-    textAlign:"left",
-    display:"inline" ,
-    margin:"0",
-})
+const Cont= styled.div`
+`;
+const PsStyle = styled.p`
+    color:#52A1C3;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-align:left;
+    font-size:12px;
+    width:80%;
+    margin-left:20px;
+    `;
 
-const email = () => ({
-    fontWeight: "blod",
+const PsStyle2 = styled.p`
+    color:#58ABAE;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-align:left;
+    font-size:12px;
+    width:80%;
+    margin-left:20px;
+    `;
+const Strong = styled.strong`
+font-weight:bold;
+margin:0;
+`;
+
+const A = styled.a`
+color: #52A1C3;
+`;
+const A2 = styled.a`
+color:#58ABAE;
+`;
    // a:hoverBackgroundColor: "yellow";
       
-})
-function PsNoteUI(){
+const PsNoteUI = ({
+
+})=>{
     return (
-        <div className={styles.title} style={PsStyle()}>
-          <h6>
-              Please feel free to contact 
-              <a href="mailto:retheraph.more@retheraph.com"> retheraph.more@retheraph.com </a>for any inquiries 
-          </h6>
-          </div>
+        <Cont>
+          <PsStyle2>
+          For any inquiries please contact us at 
+            <Strong> <A2 href="mailto: retheraph_app@gmail.com">  retheraph_app@gmail.com </A2></Strong>
+          </PsStyle2>
+
+          <PsStyle>
+                <Strong>Resources:</Strong><br></br>
+                 <A href="https://www.achn.net/about-access/whats-new/health-resources/3-most-common-mental-health-disorders-in-america/">https://www.achn.net/about-access/whats-new/health-resources/3-most-common-mental-health-disorders-in-america/</A></PsStyle>
+
+          </Cont>
         
       )
 }  
